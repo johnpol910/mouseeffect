@@ -1,0 +1,1480 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-haml' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json pubnub-angular-app@0.0.0 No description
+6 warn package.json pubnub-angular-app@0.0.0 No repository field.
+7 warn package.json pubnub-angular-app@0.0.0 No README data
+8 warn package.json haml@0.4.3 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'grunt-haml', null ]
+11 verbose cache add name=undefined spec="grunt-haml" args=["grunt-haml",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'grunt-haml',
+12 verbose parsed url   path: 'grunt-haml',
+12 verbose parsed url   href: 'grunt-haml' }
+13 silly lockFile 33b27662-grunt-haml grunt-haml
+14 verbose lock grunt-haml C:\Users\Administrator\AppData\Roaming\npm-cache\33b27662-grunt-haml.lock
+15 silly lockFile 33b27662-grunt-haml grunt-haml
+16 silly lockFile 33b27662-grunt-haml grunt-haml
+17 verbose addNamed [ 'grunt-haml', '' ]
+18 verbose addNamed [ null, '*' ]
+19 silly lockFile b9f8df10-grunt-haml grunt-haml@
+20 verbose lock grunt-haml@ C:\Users\Administrator\AppData\Roaming\npm-cache\b9f8df10-grunt-haml.lock
+21 silly addNameRange { name: 'grunt-haml', range: '*', hasData: false }
+22 verbose url raw grunt-haml
+23 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-haml' ]
+24 verbose url resolved https://registry.npmjs.org/grunt-haml
+25 info trying registry request attempt 1 at 10:27:25
+26 verbose etag "BYSGCPCLLYFX80NCZ771DLPDD"
+27 http GET https://registry.npmjs.org/grunt-haml
+28 http 304 https://registry.npmjs.org/grunt-haml
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:28 GMT',
+29 silly registry.get     server: 'Apache',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:28 GMT',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"BYSGCPCLLYFX80NCZ771DLPDD"',
+29 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1411979248.008380,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'content-length': '0',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 verbose etag grunt-haml from cache
+31 silly addNameRange number 2 { name: 'grunt-haml', range: '*', hasData: true }
+32 silly addNameRange versions [ 'grunt-haml',
+32 silly addNameRange   [ '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.0',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1',
+32 silly addNameRange     '0.7.0',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.9.0' ] ]
+33 verbose addNamed [ 'grunt-haml', '0.9.0' ]
+34 verbose addNamed [ '0.9.0', '0.9.0' ]
+35 silly lockFile abe088e7-grunt-haml-0-9-0 grunt-haml@0.9.0
+36 verbose lock grunt-haml@0.9.0 C:\Users\Administrator\AppData\Roaming\npm-cache\abe088e7-grunt-haml-0-9-0.lock
+37 silly lockFile abe088e7-grunt-haml-0-9-0 grunt-haml@0.9.0
+38 silly lockFile abe088e7-grunt-haml-0-9-0 grunt-haml@0.9.0
+39 silly lockFile b9f8df10-grunt-haml grunt-haml@
+40 silly lockFile b9f8df10-grunt-haml grunt-haml@
+41 silly resolved [ { name: 'grunt-haml',
+41 silly resolved     description: 'Process HAML templates to precompiled JavaScript or rendered HTML.',
+41 silly resolved     version: '0.9.0',
+41 silly resolved     homepage: 'https://github.com/concordusapps/grunt-haml',
+41 silly resolved     author: { name: 'Concordus Applications' },
+41 silly resolved     repository:
+41 silly resolved      { type: 'git',
+41 silly resolved        url: 'git://github.com/concordusapps/grunt-haml.git' },
+41 silly resolved     bugs: { url: 'https://github.com/concordusapps/grunt-haml/issues' },
+41 silly resolved     licenses: [ [Object] ],
+41 silly resolved     main: 'tasks/haml.js',
+41 silly resolved     scripts: { test: 'grunt test' },
+41 silly resolved     engines: { node: '0.10.x' },
+41 silly resolved     dependencies: { haml: '0.4.x', 'haml-coffee': '1.14.x' },
+41 silly resolved     devDependencies:
+41 silly resolved      { 'grunt-contrib-jshint': '0.1.x',
+41 silly resolved        'grunt-contrib-nodeunit': '0.1.x',
+41 silly resolved        'grunt-contrib-clean': 'git://github.com/gruntjs/grunt-contrib-clean.git',
+41 silly resolved        'grunt-contrib-internal': '0.1.x',
+41 silly resolved        grunt: '0.4.x' },
+41 silly resolved     keywords: [ 'gruntplugin', 'haml', 'grunt', 'js', 'coffee' ],
+41 silly resolved     contributors: [ [Object], [Object], [Object] ],
+41 silly resolved     readme: '# grunt-haml [![Build Status](https://secure.travis-ci.org/concordusapps/grunt-haml.png?branch=master)](http://travis-ci.org/concordusapps/grunt-haml)\n\n> Process HAML templates to precompiled JavaScript or rendered HTML.\n\n\n## Getting Started\nIf you haven\'t used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you\'re familiar with that process, install this plugin with this command:\n\n```shell\nnpm install grunt-haml --save-dev\n```\n\n[grunt]: http://gruntjs.com/\n[Getting Started]: http://gruntjs.com/getting-started\n\n\n## Haml task\n_Run this task with the `grunt haml` command._\n\n_This task is a [multi task][] so any targets, files and options should be specified according to the [multi task][] documentation._\n[multi task]: https://github.com/gruntjs/grunt/wiki/Configuring-tasks\n\n\n### Options\n\n#### language\nType: ```string```\nDefault: ```js```\n\nSpecifies the script language and compiler to use alongside HAML.\n\nAccepts following values: ```coffee```, ```js```, or ```ruby```.\nIf given ```coffee``` or ```js``` it will use\n[haml-coffee][] or [haml-js][] respectively. If given ```ruby``` it will\nshell out to the [haml gem] executable.\n\n[haml-coffee]: https://github.com/netzpirat/haml-coffee\n[haml-js]: https://github.com/creationix/haml-js\n[haml gem]: http://rubygems.org/gems/haml\n\n#### target\nType: ```string```\nDefault: ```html```\n\nSpecifies the target language to compile to.\n\nAccepts the following values: ```js``` or ```html```. For ```js``` the template\nis generated and for ```html``` the template is both generated and rendered\ninto its resultant HTML.\n\nIf ```language``` is set to ```ruby``` then ```target```\nmust be set to ```html```.\n\n#### placement\nType: ```string```\nDefault: ```global```\n\nSpecifies where to place the resultant template.\n\nCurrently accepts either ```global``` or ```amd```.\n- ```global``` places the template on the window.\n- ```amd``` uses AMD to load the template.\n\n*Defined only for target == \'js\'.*\n\n#### namespace\nType: ```string```\nDefault: ```window.HAML```\n\nSpecifies the global object to store the compiled HAML templates in.\n\n*Defined only for target == \'js\' and placement == \'global\'.*\n\n#### name\nType: ```string```\nDefault: basename without extension of the input HAML file\n\nSpecifies the name to store the compiled HAML template as in the object\nspecified by `namespace`.\n\nWith a `name` of \'apple\' and a namespace of `this._template`, you\'d get\nsomething like this:\n\n```javascript\nwindow.HAML[\'apple\'] =  function(locals) {\n    // template code\n};\n```\n\n*Defined only for target == \'js\' and placement == \'global\'.*\n\n\n#### context\nType: ```object```\nDefault: ```{}```\n\nSet variables that can be evaluated within haml templates.\n\nThe haml file:\n\n    %h1= "hello #{ @greet }"\n\nWith the configuration\n\n    context: {\n      \'greet\': \'Morgan Freeman\'\n    }\n\nWould compile to\n\n    <h1>hello Morgan Freeman</h1>\n\n*Defined only for target == \'html\'*\n\n\n#### dependencies\nType: ```object```\nDefault: ```{}```\n\nSpecifies any module dependencies of the HAML file that must be loaded via\nthe AMD define statement. These are automatically appended to if there are\nany `require` statements in the HAML code.\n\nWith the following HAML file:\n\n```haml\n!= require(\'path/to/other\')()\n%p Hello World\n```\n\nAnd the following options (in the `Gruntfile.js`):\n\n```javascript\nhaml: {\n  compile: {\n    files: // ...\n    options: {\n      dependencies: {\n        $: \'jquery\',\n        _: \'underscore\'\n      }\n    }\n  }\n}\n```\n\nThe resultant template would be something like this:\n\n```javascript\ndefine([\'jquery\', \'underscore\', \'path/to/other\'], function($, _, other) {\n    // template code\n});\n```\n\n*Defined only for target == \'js\'.*\n\n#### bare\nType: ```boolean```\nDefault: ```true```\n\nCompile the JavaScript without the top-level function safety wrapper.\n\n*Defined only for language == \'coffee\' and target == \'js\'.*\n\n#### precompile\nType: ```boolean```\nDefault: ```true```\n\nProcess HAML templates to precompiled JavaScript or not. Defaults to `true` for\n`target == \'js\'` and is forced to `false` for `target == \'html\'`.\n\n#### rubyHamlCommand\nType: ```string```\nDefault: ```haml -t ugly```\n\nThe shell command which will be ran to compile the HAML. The path to the\nHAML file will be passed as the last command-line argument.\n\n*Defined only for language == \'ruby\'\n\n#### includePath\nType: ```boolean```\nDefault: ```false```\n\nSpecifies whether or not to include the relative path in automatic generated\nname.\n\nWhen enabled, you\'ll get results like window.HAML[\'path/to/template\']\ninstead of window.HAML[\'template\'].\n\n*Defined only `placement == \'global\'`.*\n\n#### pathRelativeTo\nType: ```string```\nDefault: ```./```\n\nSpecifies the path names will be based from.\n\nIf `pathRelativeTo == ./templates/` you would get:\n\n```\nwindow.HAML[\'example\']\n```\n\nOtherwise, with `./` you\'ll get:\n\n```\nwindow.HAML[\'templates/example\']\n```\n\n*Defined only `placement == \'global\'`.*\n\n### Usage examples\n\n``` javascript\nhaml: {\n  one: {\n    files: {\n      // 1:1 compile\n      \'path/to/result.js\': \'path/to/source.haml\',\n\n      // compile and concat into single file\n      \'path/to/another.js\': [\'path/to/sources/*.haml\', \'path/to/more/*.haml\']\n    }\n  },\n\n  // compile individually into dest, maintaining folder structure\n  two: {\n    files: grunt.file.expandMapping([\'path/to/*.haml\'], \'path/to/dest/\', {\n      rename: function(base, path) {\n        return base + path.replace(/\\.haml$/, \'.js\');\n      }\n    })\n  }\n}\n```\n\n\n## Release History\n\n * 2013-10-09   v0.8.0   Update version of haml-coffee 1.13.x Rendering to HTML with partials now works correctly\n * 2013-08-21   v0.7.0   Replace execSync with proper use of exec.\n * 2013-08-11   v0.6.1   Update version of haml-coffee 1.11.x\n * 2013-08-06   v0.6.0   Add \'precompile\', \'includePath\', and \'pathRelativeTo\' option @leahciMic\n * 2013-05-27   v0.5.0   Add \'ruby\' as a language option Update version of haml-coffee 1.10.x\n * 2013-04-15   v0.4.0   Full support of grunt 0.4.x\n * 2013-03-21   v0.3.2   Corrected placement option to match readme.\n * 2013-01-27   v0.3.1   Update to current version of grunt.\n * 2012-12-19   v0.3.0   Name changed to `grunt-haml` Default target changed to `html`\n * 2012-12-18   v0.1.3   Updated README.\n * 2012-12-18   v0.1.2   Fixed package.json syntax error.\n * 2012-12-18   v0.1.1   Fixed package.json dependencies.\n * 2012-12-18   v0.1.0   Rewrite from scratch (referencing grunt-contrib). Support for full gamut of options.\n * 2012-12-16   v0.0.2   Fixed a syntax error in the package.json (missing comma).\n * 2012-11-06   v0.0.1   Initial release; only slightly modified from what `grunt-contrib-coffee` was at the time.\n\n---\n\nTask submitted by [Ryan Leckey](https://github.com/mehcode)\n\n*This file was generated on Wed Jan 29 2014 11:31:48.*\n',
+41 silly resolved     readmeFilename: 'README.md',
+41 silly resolved     _id: 'grunt-haml@0.9.0',
+41 silly resolved     _shasum: '969c2fa72687c1a66e836eb4770a5a4c2a779b3b',
+41 silly resolved     _from: 'grunt-haml@',
+41 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-haml/-/grunt-haml-0.9.0.tgz' } ]
+42 info install grunt-haml@0.9.0 into E:\MyWork\Web\www\pubnub\game
+43 info installOne grunt-haml@0.9.0
+44 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml unbuild
+45 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-haml\0.9.0\package.tgz
+46 silly lockFile 768330f3-nub-game-node-modules-grunt-haml tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+47 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml C:\Users\Administrator\AppData\Roaming\npm-cache\768330f3-nub-game-node-modules-grunt-haml.lock
+48 silly lockFile f32a09b1-che-grunt-haml-0-9-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-haml\0.9.0\package.tgz
+49 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-haml\0.9.0\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\f32a09b1-che-grunt-haml-0-9-0-package-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm extractEntry gruntfile.js
+56 silly gunzTarPerm extractEntry CHANGELOG
+57 silly gunzTarPerm extractEntry CONTRIBUTING.md
+58 silly gunzTarPerm extractEntry .jshintrc
+59 silly gunzTarPerm extractEntry .gitattributes
+60 silly gunzTarPerm extractEntry docs/haml-examples.md
+61 silly gunzTarPerm extractEntry docs/haml-options.md
+62 silly gunzTarPerm extractEntry docs/haml-overview.md
+63 silly gunzTarPerm extractEntry .travis.yml
+64 silly gunzTarPerm extractEntry AUTHORS
+65 silly gunzTarPerm extractEntry tasks/haml.js
+66 silly gunzTarPerm extractEntry test/coffee_test.js
+67 silly gunzTarPerm extractEntry test/expected/js_html/concat.html
+68 silly gunzTarPerm extractEntry test/expected/js_html/haml.html
+69 silly gunzTarPerm extractEntry test/expected/coffee_html/concat.html
+70 silly gunzTarPerm extractEntry test/expected/coffee_html/haml.html
+71 silly gunzTarPerm extractEntry test/expected/coffee_html_wrapped/concat.html
+72 silly gunzTarPerm extractEntry test/expected/coffee_html_wrapped/haml.html
+73 silly gunzTarPerm extractEntry test/expected/coffee_js/concat.js
+74 silly gunzTarPerm extractEntry test/expected/coffee_js/haml.js
+75 silly gunzTarPerm extractEntry test/expected/coffee_js_amd/concat.js
+76 silly gunzTarPerm extractEntry test/expected/coffee_js_amd/haml.js
+77 silly gunzTarPerm extractEntry test/expected/coffee_html_partial/haml.html
+78 silly gunzTarPerm extractEntry test/expected/js_html_wrapped/concat.html
+79 silly gunzTarPerm extractEntry test/expected/js_html_wrapped/haml.html
+80 silly gunzTarPerm extractEntry test/expected/js_js/concat.js
+81 silly gunzTarPerm extractEntry test/expected/js_js/haml.js
+82 silly gunzTarPerm extractEntry test/expected/js_js_amd/concat.js
+83 silly gunzTarPerm extractEntry test/expected/js_js_amd/haml.js
+84 silly gunzTarPerm extractEntry test/expected/ruby_html/concat.html
+85 silly gunzTarPerm extractEntry test/expected/ruby_html/haml.html
+86 silly gunzTarPerm extractEntry test/expected/ruby_html_wrapped/concat.html
+87 silly gunzTarPerm extractEntry test/expected/ruby_html_wrapped/haml.html
+88 silly gunzTarPerm extractEntry test/fixtures/coffee/coffee1.haml
+89 silly gunzTarPerm extractEntry test/fixtures/coffee/coffee2.haml
+90 silly gunzTarPerm extractEntry test/fixtures/coffee/coffee3.haml
+91 silly gunzTarPerm extractEntry test/fixtures/coffee/coffee4.haml
+92 silly gunzTarPerm extractEntry test/fixtures/js/js1.haml
+93 silly gunzTarPerm extractEntry test/fixtures/js/js2.haml
+94 silly gunzTarPerm extractEntry test/fixtures/js/js3.haml
+95 silly gunzTarPerm extractEntry test/fixtures/ruby/ruby1.haml
+96 silly gunzTarPerm extractEntry test/fixtures/ruby/ruby2.haml
+97 silly lockFile 768330f3-nub-game-node-modules-grunt-haml tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+98 silly lockFile 768330f3-nub-game-node-modules-grunt-haml tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+99 silly lockFile f32a09b1-che-grunt-haml-0-9-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-haml\0.9.0\package.tgz
+100 silly lockFile f32a09b1-che-grunt-haml-0-9-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\grunt-haml\0.9.0\package.tgz
+101 info preinstall grunt-haml@0.9.0
+102 verbose readDependencies using package.json deps
+103 verbose readDependencies using package.json deps
+104 verbose cache add [ 'haml-coffee@1.14.x', null ]
+105 verbose cache add name=undefined spec="haml-coffee@1.14.x" args=["haml-coffee@1.14.x",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'haml-coffee@1.14.x',
+106 verbose parsed url   path: 'haml-coffee@1.14.x',
+106 verbose parsed url   href: 'haml-coffee@1.14.x' }
+107 verbose cache add name="haml-coffee" spec="1.14.x" args=["haml-coffee","1.14.x"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '1.14.x',
+108 verbose parsed url   path: '1.14.x',
+108 verbose parsed url   href: '1.14.x' }
+109 verbose addNamed [ 'haml-coffee', '1.14.x' ]
+110 verbose addNamed [ null, '>=1.14.0-0 <1.15.0-0' ]
+111 silly lockFile 587eda1c-haml-coffee-1-14-x haml-coffee@1.14.x
+112 verbose lock haml-coffee@1.14.x C:\Users\Administrator\AppData\Roaming\npm-cache\587eda1c-haml-coffee-1-14-x.lock
+113 silly addNameRange { name: 'haml-coffee',
+113 silly addNameRange   range: '>=1.14.0-0 <1.15.0-0',
+113 silly addNameRange   hasData: false }
+114 verbose url raw haml-coffee
+115 verbose url resolving [ 'https://registry.npmjs.org/', './haml-coffee' ]
+116 verbose url resolved https://registry.npmjs.org/haml-coffee
+117 info trying registry request attempt 1 at 10:27:28
+118 verbose etag "C2A3078K5H64ZXDIZD3F85G12"
+119 http GET https://registry.npmjs.org/haml-coffee
+120 http 304 https://registry.npmjs.org/haml-coffee
+121 silly registry.get cb [ 304,
+121 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:30 GMT',
+121 silly registry.get     server: 'Apache',
+121 silly registry.get     via: '1.1 varnish',
+121 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:30 GMT',
+121 silly registry.get     'cache-control': 'max-age=60',
+121 silly registry.get     etag: '"C2A3078K5H64ZXDIZD3F85G12"',
+121 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+121 silly registry.get     'x-cache': 'HIT',
+121 silly registry.get     'x-cache-hits': '1',
+121 silly registry.get     'x-timer': 'S1411979250.609884,VS0,VE0',
+121 silly registry.get     vary: 'Accept',
+121 silly registry.get     'content-length': '0',
+121 silly registry.get     'keep-alive': 'timeout=10, max=50',
+121 silly registry.get     connection: 'Keep-Alive' } ]
+122 verbose etag haml-coffee from cache
+123 silly addNameRange number 2 { name: 'haml-coffee',
+123 silly addNameRange   range: '>=1.14.0-0 <1.15.0-0',
+123 silly addNameRange   hasData: true }
+124 silly addNameRange versions [ 'haml-coffee',
+124 silly addNameRange   [ '0.3.0',
+124 silly addNameRange     '0.3.1',
+124 silly addNameRange     '0.4.0',
+124 silly addNameRange     '0.5.0',
+124 silly addNameRange     '0.5.1',
+124 silly addNameRange     '0.5.2',
+124 silly addNameRange     '0.5.3',
+124 silly addNameRange     '0.5.4',
+124 silly addNameRange     '0.5.5',
+124 silly addNameRange     '0.5.6',
+124 silly addNameRange     '0.6.0',
+124 silly addNameRange     '0.6.1',
+124 silly addNameRange     '0.6.2',
+124 silly addNameRange     '0.6.3',
+124 silly addNameRange     '0.7.0',
+124 silly addNameRange     '0.7.1',
+124 silly addNameRange     '0.8.0',
+124 silly addNameRange     '0.8.1',
+124 silly addNameRange     '0.8.2',
+124 silly addNameRange     '0.8.3',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '1.0.1',
+124 silly addNameRange     '1.1.0',
+124 silly addNameRange     '1.1.1',
+124 silly addNameRange     '1.1.2',
+124 silly addNameRange     '1.1.3',
+124 silly addNameRange     '1.2.0',
+124 silly addNameRange     '1.3.0',
+124 silly addNameRange     '1.4.0',
+124 silly addNameRange     '1.4.1',
+124 silly addNameRange     '1.4.2',
+124 silly addNameRange     '1.4.3',
+124 silly addNameRange     '1.4.4',
+124 silly addNameRange     '1.4.5',
+124 silly addNameRange     '1.4.6',
+124 silly addNameRange     '1.4.7',
+124 silly addNameRange     '1.4.8',
+124 silly addNameRange     '1.4.9',
+124 silly addNameRange     '1.4.10',
+124 silly addNameRange     '1.5.0',
+124 silly addNameRange     '1.5.1',
+124 silly addNameRange     '1.6.0',
+124 silly addNameRange     '1.6.1',
+124 silly addNameRange     '1.6.2',
+124 silly addNameRange     '1.7.0',
+124 silly addNameRange     '1.8.0',
+124 silly addNameRange     '1.8.1',
+124 silly addNameRange     '1.8.2',
+124 silly addNameRange     '1.9.0',
+124 silly addNameRange     '1.9.1',
+124 silly addNameRange     '1.10.0',
+124 silly addNameRange     '1.10.1',
+124 silly addNameRange     '1.10.2',
+124 silly addNameRange     '1.10.3',
+124 silly addNameRange     '1.10.4',
+124 silly addNameRange     '1.11.1',
+124 silly addNameRange     '1.11.2',
+124 silly addNameRange     '1.11.3',
+124 silly addNameRange     '1.11.4',
+124 silly addNameRange     '1.12.0',
+124 silly addNameRange     '1.13.0',
+124 silly addNameRange     '1.13.1',
+124 silly addNameRange     '1.13.2',
+124 silly addNameRange     '1.13.3',
+124 silly addNameRange     '1.13.4',
+124 silly addNameRange     '1.13.5',
+124 silly addNameRange     '1.13.6',
+124 silly addNameRange     '1.13.7',
+124 silly addNameRange     '1.14.0',
+124 silly addNameRange     '1.14.1' ] ]
+125 verbose addNamed [ 'haml-coffee', '1.14.1' ]
+126 verbose addNamed [ '1.14.1', '1.14.1' ]
+127 silly lockFile b8803474-haml-coffee-1-14-1 haml-coffee@1.14.1
+128 verbose lock haml-coffee@1.14.1 C:\Users\Administrator\AppData\Roaming\npm-cache\b8803474-haml-coffee-1-14-1.lock
+129 silly lockFile b8803474-haml-coffee-1-14-1 haml-coffee@1.14.1
+130 silly lockFile b8803474-haml-coffee-1-14-1 haml-coffee@1.14.1
+131 silly lockFile 587eda1c-haml-coffee-1-14-x haml-coffee@1.14.x
+132 silly lockFile 587eda1c-haml-coffee-1-14-x haml-coffee@1.14.x
+133 silly resolved [ { name: 'haml-coffee',
+133 silly resolved     description: 'Haml templates where you can write inline CoffeeScript.',
+133 silly resolved     keywords:
+133 silly resolved      [ 'haml',
+133 silly resolved        'coffeescript',
+133 silly resolved        'templating',
+133 silly resolved        'html',
+133 silly resolved        'javascript',
+133 silly resolved        'language',
+133 silly resolved        'compiler' ],
+133 silly resolved     author: { name: 'Michael Kessler', email: 'michi@flinkfinger.com' },
+133 silly resolved     maintainers: [ [Object] ],
+133 silly resolved     version: '1.14.1',
+133 silly resolved     licenses: [ [Object] ],
+133 silly resolved     browserify: './src/haml-coffee',
+133 silly resolved     engines: { node: '>=0.4.0' },
+133 silly resolved     directories: { lib: './src' },
+133 silly resolved     bin: { 'haml-coffee': './bin/haml-coffee' },
+133 silly resolved     dependencies:
+133 silly resolved      { 'coffee-script': '>= 1.1.3',
+133 silly resolved        walkdir: '~0.0.7',
+133 silly resolved        optimist: '~0.6.0' },
+133 silly resolved     devDependencies:
+133 silly resolved      { grunt: '~0.4.2',
+133 silly resolved        'grunt-regarde': '~0.1.1',
+133 silly resolved        'grunt-jasmine-node': '~0.1.0',
+133 silly resolved        'jasmine-node': '~1.12.0',
+133 silly resolved        matchdep: '~0.3.0',
+133 silly resolved        browserify: '~1.17.3',
+133 silly resolved        'grunt-contrib-uglify': '~0.2.7',
+133 silly resolved        'grunt-text-replace': '~0.3.10',
+133 silly resolved        'grunt-shell': '~0.6.1' },
+133 silly resolved     homepage: 'https://github.com/netzpirat/haml-coffee',
+133 silly resolved     repository:
+133 silly resolved      { type: 'git',
+133 silly resolved        url: 'git://github.com/netzpirat/haml-coffee.git' },
+133 silly resolved     bugs: { url: 'https://github.com/netzpirat/haml-coffee/issues' },
+133 silly resolved     scripts: { test: 'jasmine-node --coffee spec' },
+133 silly resolved     readme: '# Haml Coffee Templates [![Build Status](https://secure.travis-ci.org/netzpirat/haml-coffee.png)](http://travis-ci.org/netzpirat/haml-coffee)\n\nHaml Coffee is a JavaScript templating solution that uses [Haml](http://haml-lang.com/) as markup, understands inline\n[CoffeeScript](http://jashkenas.github.com/coffee-script/) and generates a JavaScript function that renders to HTML. It\ncan be used in client-side JavaScript applications that are using\n[Backbone.js](http://documentcloud.github.com/backbone/), [Spine.js](http://spinejs.com/),\n[JavaScriptMVC](http://javascriptmvc.com/), [KnockoutJS](http://knockoutjs.com/) and others, or on the server-side in\nframeworks like [Express](http://expressjs.com/).\n\nYou can try Haml Coffee online by visiting [Haml Coffee Online](http://haml-coffee-online.herokuapp.com/).\n\n## Installation\n\nHaml Coffee is available in NPM and can be installed with:\n\n```bash\n$ npm install haml-coffee\n```\n\nPlease have a look at the [CHANGELOG](https://github.com/netzpirat/haml-coffee/blob/master/CHANGELOG.md) when upgrading to a\nnewer Haml Coffee version with `npm update`.\n\n## Integration\n\nThere are different packages available to integrate Haml Coffee into your workflow:\n\n### Editor\n\n* [CoffeeScriptHaml](https://github.com/jisaacks/CoffeeScriptHaml) Syntax highlighting for .hamlc files in Sublime Text.\n\n### Node.JS\n\n* [grunt-haml](https://github.com/concordusapps/grunt-haml) for projects using [Grunt](http://gruntjs.com/).\n* [hem-haml-coffee](https://github.com/vojto/hem-haml-coffee) for projects using [Hem](https://github.com/spine/hem/).\n* [stitch-haml-coffee](https://github.com/jnbt/stitch-haml-coffee) for projects using [Stitch](https://github.com/sstephenson/stitch).\n* [Mincer](https://github.com/nodeca/mincer) the Sprockets inspired web assets compiler.\n\n### Ruby/Rails\n\n* [haml_coffee_assets](https://github.com/netzpirat/haml_coffee_assets) for projects using Rails.\n* [guard-haml-coffee](https://github.com/ouvrages/guard-haml-coffee) for projects using [Guard](https://github.com/guard/guard).\n\n### Browser\n\n* [Haml Coffee compiler](https://raw.github.com/netzpirat/haml-coffee/master/dist/compiler/hamlcoffee.js)\n  ([minified](https://raw.github.com/netzpirat/haml-coffee/master/dist/compiler/hamlcoffee.min.js))\n  for compiling in the browser.\n\nThe browser distribution doesn\'t come bundled with CoffeeScript, so you\'ll have to make sure you\'ve\nincluded it before requiring haml-coffee.\n\n## Compile Haml Coffee\n\n### Using the API\n\nYou can compile a Haml Coffee template to a JavaScript function and execute the function with the locals to render the\nHTML. The following code\n\n```coffeescript\nhamlc = require \'haml-coffee\'\ntmpl = hamlc.compile \'%h1= @title\'\nhtml = tmpl title: \'Haml Coffee rocks!\'\n```\n\nwill create the HTML `<h1>Haml Coffee rocks!</h1>`.\n\nThe `compile` function can take the compiler options as second parameter to customize the template function:\n\n```coffeescript\nhamlc.compile \'%h1= @title\'\n  cleanValue: false\n  escapeHtml: false\n```\n\nSee the [compiler options](#compiler-options) for detailed information about all the available options and browse\nthe [codo](https://github.com/netzpirat/codo) generated\n[Haml Coffee API documentation](http://coffeedoc.info/github/netzpirat/haml-coffee/master/).\n\n### Using with Express\n\nYou can configure [Express](http://expressjs.com/) to use Haml Coffee as template engine.\n\n#### Express 3\n\nStarting with version 1.4.0, Haml Coffee has support for Express 3 and can be registered as view engine as follows:\n\n```coffeescript\nexpress = require \'express\'\napp     = express()\n\napp.engine \'hamlc\', require(\'haml-coffee\').__express\n```\n\nAlternatively you can also use [consolidate.js](https://github.com/visionmedia/consolidate.js) to register the engine:\n\n```coffeescript\nexpress = require \'express\'\ncons    = require \'consolidate\'\napp     = express()\n\napp.engine \'hamlc\', cons[\'haml-coffee\']\n```\n\n#### Express 2\n\nStarting with version 0.5.0, Haml Coffee has support for Express 2 and can be registered as view engine as follows:\n\n```coffeescript\nexpress = require \'express\'\n\napp = express.createServer()\napp.register \'.hamlc\', require(\'haml-coffee\')\n```\n\nAlternatively you can also use [consolidate.js](https://github.com/visionmedia/consolidate.js) to register the engine:\n\n```coffeescript\nexpress = require \'express\'\ncons    = require \'consolidate\'\n\napp = express.createServer()\napp.register \'.hamlc\', cons[\'haml-coffee\']\n```\n\n#### Express Usage\n\n##### Layouts\n\nExpress 2 uses a layout file `layout.hamlc` by default and you have to insert the rendered view body into the layout like\nthis:\n\n```haml\n!!!\n%head\n  %title Express App\n%body\n  != @body\n```\n\nNow you can create a Haml Coffee view\n\n```haml\n%h1= "Welcome #{ @name }"\n%p You\'ve rendered your first Haml Coffee view.\n```\n\nthat you can render with:\n\n```coffeescript\napp.get \'/\', (req, res) ->\n  res.render \'index.hamlc\', name: \'Express user\'\n```\n\nExpress 3 has removed layout support, but you can get it back by installing\n[express-partials](https://github.com/publicclass/express-partials) and configure it as middleware:\n\n```\npartials = require \'express-partials\'\napp.use partials()\n```\n\n##### Default template engine\n\nIt\'s possible to use Haml Coffee as the default template engine by setting the `view engine`:\n\n```coffeescript\napp.configure ->\n  app.set \'view engine\', \'hamlc\'\n```\n\nwhich allows you to omit the `.hamlc` extension when rendering a template:\n\n```coffeescript\napp.get \'/\', (req, res) ->\n  res.render \'index\', name: \'Express user\'\n```\n\n##### Compiler options\n\nWith Express 3, you can set global compiler options by using `app.locals`:\n\n```\napp.locals.uglify = true\n```\n\nwhich is the same as:\n\n```\nres.render view, { uglify: true }\n```\n\nSee the [compiler options](#compiler-options) for detailed information about all the available options.\n\n### Using the CLI tool\n\nAfter the installation you will have a `haml-coffee` binary that can be used to compile single templates and even\ncompile multiple templates recursively into a single file.\n\n```bash\n$ haml-coffee\nUsage: node haml-coffee\n\nOptions:\n  -i, --input                        Either a file or a directory name to be compiled\n  -o, --output                       Set the output filename\n  -n, --namespace                    Set a custom template namespace\n  -t, --template                     Set a custom template name\n  -b, --basename                     Ignore file path when generate the template name\n  -e, --extend                       Extend the template scope with the context\n  -r, --render                       Render to standalone HTML\n```\n\n_The following section describes only the options that are unique to the command line tool._\n\nYou can see all the available options by executing `haml-coffee --help` and have a look at the\n[compiler options](#compiler-options) for detailed information about all the options.\n\nThe `input` and `output` are optional and you can also directly redirect the streams.\n\n#### Input filename\n\nYou can either specify a single template or a directory with the `-i`/`--input` argument. When you supply a directory,\ntemplates are being searched recursively:\n\n```bash\n$ haml-coffee -i template.haml\n```\n\nThis will generate a template with the same name as the file but the extension changed to `.jst`. The above command for\nexample would generate a template named `template.jst`.\n\nA valid Haml Coffee template must have one of the following extensions: `.haml`, `.html.haml`, `.hamlc` or\n`.html.hamlc`.\n\n#### Output filename\n\nYou can specify a single output file name to be used instead of the automatic generated output file name with the\n`-o`/`--output` argument:\n\n```bash\n$ haml-coffee -i template.haml -o t.js\n```\n\nThis creates a template named `t.js`. You can also set a directory as input and give an output file name for\nconcatenating all templates into a single file:\n\n```bash\n$ haml-coffee -i templates -o all.js\n```\n\nThis will create all the templates under the `templates` directory into a single, combined output file `all.js`.\n\n#### Template namespace\n\nEach template will register itself by default under the `window.HAML` namespace, but you can change the namespace with\nthe `-n`/`--namespace` argument:\n\n```bash\n$ haml-coffee -i template.haml -n exports.JST\n```\n\n#### Template name\n\nEach template must have a unique name under which it can be addressed. By default the template name is derived from the\ntemplate file name by stripping off all extensions and remove illegal characters. Directory names are converted to\nnested namespaces under the default namespace. For example, a template named `user/show-admin.html.haml` will result in\na template that can be accessed by `window.HAML[\'user/show_admin\']`.\n\nGiven the `-b`/`--basename` argument, the deduced template name will not include the path to the template. For example,\na template named `user/show-admin.html.haml` will result in a template that can be accessed by\n`window.HAML[\'show_admin\']` instead of `window.HAML[\'user/show_admin\']`.\n\nWith the `-t`/`--template` argument you can set a template name manually:\n\n```bash\n$ haml-coffee -i template.haml -n exports.JST -t other\n```\n\nThis will result in a template that can be accessed by `exports.JST[\'other\']`.\n\n#### Extend the template scope\n\nBy extending the template scope with the context, you can access your context data without `@` or `this`:\n\n```Haml\n%h2= title\n```\n\nThis effect is achieved by using the [with](https://developer.mozilla.org/en/JavaScript/Reference/Statements/with)\nstatement. Using with is forbidden in ECMAScript 5 strict mode.\n\n#### Stream redirection\n\nYou can use Haml Coffee on the command line to enter a template and stop it with `Ctrl-D`:\n\n```bash\n$ haml-coffee -p amd\n%h1 Hello AMD\n^D\n```\n\nwhich will output the AMD module source code to the console. You either have to set the placement option to `amd` or\ngive it a template name like\n\n```bash\n$ haml-coffee -t name\n%p JST rocks!\n^D\n```\n\nwhich will output the JST source code. Now you can also redirect files like:\n\n```bash\n$ haml-coffee -t name < input.hamlc > output.jst\n```\n\n## Haml support\n\nHaml Coffee implements the [Haml Spec](https://github.com/haml/haml-spec) to ensure some degree of compatibility to\nother Haml implementations and the following sections are fully compatible to Ruby Haml:\n\n* Plain text\n* Multiline: `|`\n* Element names: `%`\n* Attributes: `{}` or `()`\n* Class and ID: `.` and `#`, implicit `div` elements\n* Self-closing tags: `/`\n* Doctype: `!!!`\n* HTML comments: `/`, conditional comments: `/[]`, Haml comments: `-#`\n* Running CoffeeScript: `-`, inserting CoffeeScript: `=`\n* CoffeeScript interpolation: `#{}`\n* Whitespace preservation: `~`\n* Whitespace removal: `>` and `<`\n* Escaping `\\`\n* Escaping HTML: `&=`, unescaping HTML: `!=`\n* Filters: `:plain`, `:javascript`, `:css`, `:cdata`, `:escaped`, `:preserve`\n* Boolean attributes conversion\n* Haml object reference syntax: `[]`\n\nPlease consult the official [Haml reference](http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html) for more\ndetails.\n\nHaml Coffee supports both Ruby 1.8 and Ruby 1.9 style attributes. So the following Ruby 1.8 style attribute\n\n```haml\n%a{ :href => \'http://haml-lang.com/\', :title => \'Haml home\' } Haml\n```\n\ncan also be written in Ruby 1.9 style:\n\n```haml\n%a{ href: \'http://haml-lang.com/\', title: \'Haml home\' } Haml\n```\n\nHTML style tags are also supported:\n\n```haml\n%a( href=\'http://haml-lang.com/\' title=\'Haml home\') Haml\n```\n\n### Helpers\n\nHaml Coffee supports a small subset of the Ruby Haml [helpers](http://haml-lang.com/docs/yardoc/Haml/Helpers.html). The\nprovided helpers will bind the helper function to the template context, so it isn\'t necessary to use `=>`.\n\n#### Surround\n\nSurrounds a block of Haml code with strings, with no whitespace in between.\n\n```haml\n!= surround \'(\', \')\', ->\n  %a{:href => "food"} chicken\n```\n\nproduces the HTML output\n\n```html\n(<a href=\'food\'>chicken</a>)\n```\n\n#### Succeed\n\nAppends a string to the end of a Haml block, with no whitespace between.\n\n```haml\nclick\n!= succeed \'.\', ->\n  %a{:href=>"thing"} here\n```\n\nproduces the HTML output\n\n```html\nclick\n<a href=\'thing\'>here</a>.\n```\n\n#### Precede\n\nPrepends a string to the beginning of a Haml block, with no whitespace between.\n\n```haml\n!= precede \'*\', ->\n  %span.small Not really\n```\n\nproduces the HTML output\n\n```html\n*<span class=\'small\'>Not really</span>\n```\n\n### Object reference: `[]`\n\nHaml Coffee supports object references, but they are implemented slightly different due to the underlying runtime and\ndifferent code style for CoffeeScript.\n\nSquare brackets contain a CoffeeScript object or class that is used to set the class and id of that tag. The class is\nset to the object’s constructor name (transformed to use underlines rather than camel case) and the id is set to the\nobject’s constructor name, followed by the value of its `id` property or its `#to_key` or `#id` functions (in that\norder). Additionally, the second argument (if present) will be used as a prefix for both the id and class attributes.\n\nFor example:\n\n```haml\n%div[@user, \'greeting\']\n  Hello\n```\n\nis compiled to:\n\n```html\n<div class=\'greeting_user\' id=\'greeting_user_15\'>\n  Hello!\n</div>\n```\n\nIf the user object is for example a Backbone model with the id of 15. If you require that the class be something other\nthan the underscored object’s constructor name, you can implement the `#hamlObjectRef` function on the object:\n\n```haml\n:coffeescript\n  class User\n    id: 23\n    hamlObjectRef: -> \'custom\'\n\n%div[new User()]\n  Hello\n```\n\nis compiled to:\n\n```html\n<div class=\'custom\' id=\'custom_23\'>\n  Hello!\n</div>\n```\n\n### Directives\n\nHaml Coffee supports currently a single directive that extends the Haml syntax.\n\n### Include\n\nYou can use the `+include` directive to include another template:\n\n```haml\n%h1 Include\n+include \'partials/test\'\n```\n\nThis will look up the specified template and include it. So if the partial `partials/test` contains\n\n```haml\n%p Partial content\n```\n\nThe final result will be\n\n```html\n<h1>Include</h1>\n<p>Partial content</p>\n```\n\n## CoffeeScript support\n\nHaml and CoffeeScript are a winning team, both use indention for blocks and are a perfect match for this reason. You can\nuse CoffeeScript instead of Ruby in your Haml tags and the attributes.\n\n**It\'s not recommended to put too much logic into the template.**\n\n### Attributes\n\nWhen you define an attribute value without putting it into quotes (single or double quotes), it\'s considered to be\nCoffeeScript code to be run at render time. By default, attributes values from CoffeeScript code are escaped before\ninserting into the document. You can change this behaviour by setting the appropriate compiler option.\n\nHTML style attributes are the most limited and can only assign a simple variable:\n\n```haml\n%img(src=\'/images/demo.png\' width=@width height=@height alt=alt)\n```\n\nBoth the `@width` and `@height` values must be passed as locals when rendering the template and `alt` must be defined\nbefore the `%img` tag.\n\nRuby style tags can be more complex and can call functions:\n\n```haml\n%header\n  %user{ :class => App.currentUser.get(\'status\') }= App.currentUser.getDisplayName()\n```\n\nAttribute definitions are also supported in the Ruby 1.9 style:\n\n```haml\n%header\n  %user{ class: App.currentUser.get(\'status\') }= App.currentUser.getDisplayName()\n```\n\nMore fancy stuff can be done when use interpolation within a double quoted attribute value:\n\n```haml\n%header\n  %user{ class: "#{ if @user.get(\'roles\').indexOf(\'admin\') is -1 then \'normal\' else \'admin\' }" }= @user.getDisplayName()\n```\n\n_But think twice about it before putting such fancy stuff into your template, there are better places like models,\nviews or helpers to put heavy logic into._\n\nYou can define your attributes over multiple lines and the next line must not be correctly indented, so you can align\nthem properly:\n\n```haml\n%input#password.hint{ type: \'password\', name: \'registration[password]\',\n                      data: { hint: \'Something very important\', align: \'left\' } }\n```\n\nIn the above example you also see the usage for generating HTML5 data attributes.\n\n### Running Code\n\nYou can run any CoffeeScript code in your template:\n\n```haml\n- for project in @projects\n  - if project.visible\n    .project\n      %h1= project.name\n      %p&= project.description\n```\n\nThere are several supported types to run your code:\n\n* Run code without insert anything into the document: `-`\n* Run code and insert the result into the document: `=`\n\nAll inserted content from running code is escaped by default. You can change this behaviour by setting the appropriate\ncompiler option.\n\nThere are three variations to run code and insert its result into the document, two of them to change the escaping style\nchosen in the compile option:\n\n* Run code and do not escape the result: `!=`\n* Run code and escape the result: `&=`\n* Preserve whitespace when insert the result: `~`\n\nAgain, please consult the official [Haml reference](http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html) for more\ndetails. Haml Coffee implements the same functionality like Ruby Haml, only for CoffeeScript.\n\n#### Interpolation\n\nIf you use the CoffeeScript interpolation without explicitly run code with `=` and `-`, the interpolation output is not\nbeing escaped. You can manually force escaping by using the HTML escape reference `$e`:\n\n```Haml\n%p\n  foo #{ $e \'<bar>\' }\n```\n\nwill be rendered to\n\n```HTML\n<p>\n  foo &lt;bar&gt;\n</p>\n```\n\n#### Multiline code blocks\n\nRunning code must be placed on a single line and unlike Ruby Haml, you cannot stretch a it over multiple lines by\nputting a comma at the end.\n\nHowever, you can use multiline endings `|` to stretch your code over multiple lines to some extend:\n\n```Haml\n- links = {          |\n    home: \'/\',       |\n    docs: \'/docs\',   |\n    about: \'/about\'  |\n  }                  |\n\n%ul\n  - for name, link of links\n    %li\n      %a{ href: link }= name\n```\n\nPlease note, that since the line is concatenated before the compilation, you cannot omit the curly braces and the\ncommas in the above example, like you\'d do in normal CoffeeScript code. Therefore it\'s recommended to use the\nCoffeeScript filter to have real multiline code blocks:\n\n```Haml\n:coffeescript\n  links =\n    home: \'/\'\n    docs: \'/docs\'\n    about: \'/about\'\n\n%ul\n  - for name, link of links\n    %li\n      %a{ href: link }= name\n```\n\n#### Functions\n\nYou can also create functions that generate Haml:\n\n```haml\n- sum = (a, b) ->\n  %div\n    %span= a\n    %span= b\n    %span= a+b\n= sum(1,2)\n= sum(3,4)\n```\n\nor pass generated HTML output through a function for post-processing.\n\n```haml\n= postProcess ->\n  %a{ href: \'/\' }\n```\n\nThe content of the `:coffeescript` filter is run when the template is rendered and doesn\'t output anything into the\nresulting document. This comes in handy when you have code to run over multiple lines and don\'t want to prefix each line\nwith `-`:\n\n```haml\n%body\n  :coffeescript\n    tags = [\'CoffeeScript\', \'Haml\']\n    project = \'Haml Coffee\'\n  %h2= project\n  %ul\n    - for tag in tags\n      %li= tag\n```\n\n## Compiler options\n\nThe following section describes all the available compiler options that you can use through the JavaScript API,\nas Express view option or as argument to the command line utility.\n\nThe command line arguments may be slightly different. For example instead of passing `--escape-html=false` you have to\nuse the `--disable-html-escaping` argument. You can see a list of all the command line arguments by executing\n`haml-coffee --help`.\n\n### HTML generation options\n\nThe HTML options change the way how the generated HTML will look like.\n\n#### Output format\n\n* Name: \'format\'\n* Type: `String`\n* Default: `html5`\n\nThe Haml parser knows different HTML formats to which a given template can be rendered and it must be one of:\n\n* xhtml\n* html4\n* html5\n\nDoctype, self-closing tags and attributes handling depends on this setting. Please consult the official\n[Haml reference](http://haml-lang.com/docs/yardoc/file.HAML_REFERENCE.html) for more details.\n\n#### Uglify output\n\n* Name: `uglify`\n* Type: `Boolean`\n* Default: `false`\n\nAll generated HTML tags are properly indented by default, so the output looks nice. This can be helpful when debugging.\nYou can skip the indention by setting the `uglify` option to false. This save you some bytes and you\'ll have increased\nrendering speed.\n\n#### HTML escape\n\n* Name: `escapeHtml`\n* Type: `Boolean`\n* Default: `true`\n\nThe reserved HTML characters `"`, `\'`, `&`, `<` and `>` are converted to their HTML entities by default when they are\ninserted into the HTML document from evaluated CoffeeScript.\n\nYou can always change the escaping mode within the template to either force escaping with `&=` or force unescaping with\n`!=`.\n\n#### Attributes escape\n\n* Name: `escapeAttributes`\n* Type: `Boolean`\n* Default: `true`\n\nAll HTML attributes that are generated by evaluating CoffeeScript are also escaped by default. You can turn of HTML\nescaping of the attributes only by setting `escapeAttributes` to false. You can\'t change this behaviour in the template\nsince there is no Haml markup for this to instruct the compiler to change the escaping mode.\n\n#### Clean CoffeeScript values\n\n* Name: `cleanValue`\n* Type: `Boolean`\n* Default: `true`\n\nEvery output that is generated from evaluating CoffeeScript code is cleaned before inserting into the document. The\ndefault implementation converts `null` or `undefined` values into an empty string and marks real boolean values with a\nhidden marker character. The hidden marker character is necessary to distinguish between String values like `\'true\'`,\n`\'false\'` and real boolean values `true`, `false` in the markup, so that a boolean attribute conversion can quickly\nconvert these values to the correct HTML5/XHTML/HTML4 representation.\n\n#### Preserve whitespace tags\n\n* Name: `preserve`\n* Type: `String`\n* Default: `textarea,pre`\n\nThe `preserve` option defines a list of comma separated HTML tags that are whitespace sensitive. Content from these tags\nmust be preserved, so that the indention has no influence on the displayed content. This is simply done by converting\nthe newline characters to their equivalent HTML entity.\n\n#### Autoclose tags\n\n* Name: `autoclose`\n* Type: `String`\n* Default: `meta,img,link,br,hr,input,area,param,col,base`\n\nThe autoclose option defines a list of tag names that should be automatically closed if they have no content.\n\n#### Module loader support\n\n* Name: `placement`\n* Type: `String`\n* Default: `global`\n\nThe `placement` option defines where the template function is inserted\nupon compilation.\n\nPossible values are:\n\n* `global` <br />\n  Inserts the optionally namespaced template function into `window.HAML`.\n\n* \'standalone\' <br />\n  Returns the template function without wrapping it\n\n* `amd` <br />\n  Wraps the template function into a `define()` statement to allow async\n  loading via AMD.\n\nSee AMD support for more information.\n\n### Module dependencies\n\n* Name: `dependencies`\n* Type: `Object`\n* Default: `{ hc: \'hamlcoffee\' }`\n\nThe `dependencies` option allows you to define the modules that must be required for the AMD template `define` function.\nThe object key will be the function parameter name of the module the object value defines. See AMD support for more\ninformation.\n\n### Data attribute hyphenation\n\n* Name: `hyphenateDataAttrs`\n* Type: `Boolean`\n* Default: `true`\n\nConvert underscores to hyphens for data attribute keys, see\n[the Ruby Haml reference](http://haml.info/docs/yardoc/file.REFERENCE.html#html5_custom_data_attributes).\n\n### Custom helper function options\n\nHaml Coffee provides helper functions for HTML escaping, value cleaning and whitespace preservation, which must be\navailable at render time. By default every generated template function is self-contained and includes all of the helper\nfunctions.\n\nHowever you can change the reference to each helper function by providing the appropriate compiler option and there\nare good reasons to do so:\n\n* You want to reduce the template size and provide all the helpers from a central place.\n* You want to customize a helper function to better fit your needs.\n\nTo change these functions, simply assign the new function name to one of the following options:\n\n  * `customHtmlEscape`: Escape the reserved HTML characters into their equivalent HTML entity.\n  * `customPreserve`: Converting newlines into their HTML entity.\n  * `customFindAndPreserve`: Find whitespace sensitive tags and preserve their content.\n  * `customCleanValue`: Clean the value that is returned after evaluating some inline CoffeeScript.\n  * `customSurround`: Surrounds a block of Haml code with strings, with no whitespace in between.\n  * `customSucceed`: Appends a string to the end of a Haml block, with no whitespace between.\n  * `customPrecede`: Prepends a string to the beginning of a Haml block, with no whitespace between.\n  * `customReference`: Creates the Haml object reference.\n\nThe `customSurround`, `customSucceed` and `customPrecede` are bound to the template context.\n\nYou can find a default implementation for all these helper functions in\n[Haml Coffee Assets](https://github.com/netzpirat/haml_coffee_assets/blob/master/vendor/assets/javascripts/hamlcoffee.js.coffee.erb).\n\n## AMD support\n\n* Global dependencies\n* Trivial dependency detection\n\nHaml Coffee has built in AMD support by setting the `placement` option to `amd`. This will generate a module definition\nfor the JavaScript template. The `dependencies` options can be used to provide a mapping of module names to parameters.\nTo illustrate this, the default value will result in the following module declaration:\n\n```CoffeeScript\ndefine [\'hamlcoffee\'], (hc) ->\n```\n\nWhen the template contains a require call in the form of\n\n```CoffeeScript\n - require \'module\'\n - require \'deep/nested/other\'\n```\n\nit will be added to the module definition list\n\n```CoffeeScript\ndefine [\'hamlcoffee\', \'module\', \'deep/nested/other\'], (hc, module, other) ->\n```\n\nallowing you to render a partial template:\n\n```CoffeeScript\n!= module()\n!= other()\n```\n\nOf course the require call can have different quotes or parenthesises, allowing you to directly require and render:\n\n```CoffeeScript\n!= require("another/other")()\n```\n\n### Module dependency\n\nBy default Haml Coffee AMD templates depend on the `hamlcoffee` module that provides the client side helpers needed to\nrender the template. You need to supply your own module, but you can grab a copy from\n[Haml Coffee Assets AMD helpers](https://github.com/netzpirat/haml_coffee_assets/blob/master/vendor/assets/javascripts/hamlcoffee_amd.js.coffee.erb)\nand adapt it to your needs. Another option is to remove the module from the\n[module dependencies](https://github.com/netzpirat/haml-coffee#module-dependencies), but that\'s usually not what you\nwant because it duplicates the needed function within every template.\n\n### Static HTML\n\nBy default Haml Coffee outputs pre-compiled templates for rendering dynamic content.\n\nThere is a `render` helper that can be used as follows to get the standalone HTML rendering of a HAML template.\n\n```\nhamlc = require \'haml-coffee\'\ntext = hamlc.render \'%h1= @title\', {title: \'hi\'}\ntext\n\'<h1>hi</h1>\'\n```\n\n## Development information\n\nHaml Coffee uses [Grunt](http://gruntjs.com/) for development, which you can install with\n[NPM](https://npmjs.org/):\n\n```bash\n$ npm install\n```\n\nand run Grunt to automatically run the Jasmine specs on file modification:\n\n```bash\n$ grunt\n```\n\n## Changelog\n\nFeel free to take a look at the crispy [changelog](https://github.com/netzpirat/haml-coffee/blob/master/CHANGELOG.md)\ninstead of crawling through the commit history.\n\n## Related projects\n\nHaml Coffee in the  Rails asset pipeline:\n\n* [haml-coffee-assets](https://github.com/netzpirat/haml_coffee_assets)\n\n## Authors\n\n* [Michael Kessler](https://github.com/netzpirat) ([@netzpirat](http://twitter.com/#!/netzpirat), [FlinkFinger](http://www.flinkfinger.com))\n* [Sebastion Deutsch](https://github.com/sebastiandeutsch) ([@sippndipp](http://twitter.com/#!/sippndipp), [9elements](http://9elements.com))\n* [Jan Varwig](https://github.com/janv) ([@agento](http://twitter.com/#!/agento), [9elements](http://9elements.com))\n\n## Contributors\n\nSee all contributors on [the contributor page](https://github.com/netzpirat/haml-coffee/contributors).\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2011 9elements, 2011-2013 Michael Kessler\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+133 silly resolved     readmeFilename: 'README.md',
+133 silly resolved     _id: 'haml-coffee@1.14.1',
+133 silly resolved     _shasum: '962b01b9fdd363bc7317043733e482ef94a1b6eb',
+133 silly resolved     _from: 'haml-coffee@1.14.x',
+133 silly resolved     _resolved: 'https://registry.npmjs.org/haml-coffee/-/haml-coffee-1.14.1.tgz' } ]
+134 info install haml-coffee@1.14.1 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+135 info installOne haml-coffee@1.14.1
+136 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee unbuild
+137 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\haml-coffee\1.14.1\package.tgz
+138 silly lockFile fefb0950-nt-haml-node-modules-haml-coffee tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+139 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee C:\Users\Administrator\AppData\Roaming\npm-cache\fefb0950-nt-haml-node-modules-haml-coffee.lock
+140 silly lockFile 54a1d15c-e-haml-coffee-1-14-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\haml-coffee\1.14.1\package.tgz
+141 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\haml-coffee\1.14.1\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\54a1d15c-e-haml-coffee-1-14-1-package-tgz.lock
+142 silly gunzTarPerm modes [ '755', '644' ]
+143 silly gunzTarPerm extractEntry package.json
+144 silly gunzTarPerm extractEntry .npmignore
+145 silly gunzTarPerm extractEntry README.md
+146 silly gunzTarPerm extractEntry LICENSE
+147 silly gunzTarPerm extractEntry index.js
+148 silly gunzTarPerm extractEntry README_fr.md
+149 silly gunzTarPerm extractEntry .codoopts
+150 silly gunzTarPerm extractEntry .travis.yml
+151 silly gunzTarPerm extractEntry CHANGELOG.md
+152 silly gunzTarPerm extractEntry Rakefile
+153 silly gunzTarPerm extractEntry bin/haml-coffee
+154 silly gunzTarPerm extractEntry dist/compiler/hamlcoffee.js
+155 silly gunzTarPerm extractEntry dist/compiler/hamlcoffee.min.js
+156 silly gunzTarPerm extractEntry CONTRIBUTING.md
+157 silly gunzTarPerm extractEntry Gruntfile.coffee
+158 silly gunzTarPerm extractEntry spec/compiler_spec.coffee
+159 silly gunzTarPerm extractEntry spec/suites/haml_coffee_spec.json
+160 silly gunzTarPerm extractEntry spec/suites/haml_spec.json
+161 silly gunzTarPerm extractEntry spec/suites/templates/coffee/for_loop.haml
+162 silly gunzTarPerm extractEntry spec/suites/templates/coffee/attributes.haml
+163 silly gunzTarPerm extractEntry spec/suites/templates/coffee/class.haml
+164 silly gunzTarPerm extractEntry spec/suites/templates/coffee/class.html
+165 silly gunzTarPerm extractEntry spec/suites/templates/coffee/clean_values.haml
+166 silly gunzTarPerm extractEntry spec/suites/templates/coffee/clean_values.html
+167 silly gunzTarPerm extractEntry spec/suites/templates/coffee/code_attributes.haml
+168 silly gunzTarPerm extractEntry spec/suites/templates/coffee/code_attributes.html
+169 silly gunzTarPerm extractEntry spec/suites/templates/coffee/complex.haml
+170 silly gunzTarPerm extractEntry spec/suites/templates/coffee/complex.html
+171 silly gunzTarPerm extractEntry spec/suites/templates/coffee/data_attributes.haml
+172 silly gunzTarPerm extractEntry spec/suites/templates/coffee/data_attributes.html
+173 silly gunzTarPerm extractEntry spec/suites/templates/coffee/evaluation_in_function.haml
+174 silly gunzTarPerm extractEntry spec/suites/templates/coffee/evaluation_in_function.html
+175 silly gunzTarPerm extractEntry spec/suites/templates/coffee/extend_scope.haml
+176 silly gunzTarPerm extractEntry spec/suites/templates/coffee/extend_scope.html
+177 silly gunzTarPerm extractEntry spec/suites/templates/coffee/attributes.html
+178 silly gunzTarPerm extractEntry spec/suites/templates/coffee/for_loop.html
+179 silly gunzTarPerm extractEntry spec/suites/templates/coffee/helpers.haml
+180 silly gunzTarPerm extractEntry spec/suites/templates/coffee/helpers.html
+181 silly gunzTarPerm extractEntry spec/suites/templates/coffee/loop_nested_array.haml
+182 silly gunzTarPerm extractEntry spec/suites/templates/coffee/loop_nested_array.html
+183 silly gunzTarPerm extractEntry spec/suites/templates/coffee/multiline.haml
+184 silly gunzTarPerm extractEntry spec/suites/templates/coffee/multiline.html
+185 silly gunzTarPerm extractEntry spec/suites/templates/coffee/object_reference.haml
+186 silly gunzTarPerm extractEntry spec/suites/templates/coffee/object_reference.html
+187 silly gunzTarPerm extractEntry spec/suites/templates/coffee/preserve.haml
+188 silly gunzTarPerm extractEntry spec/suites/templates/coffee/preserve.html
+189 silly gunzTarPerm extractEntry spec/suites/templates/coffee/quotes.haml
+190 silly gunzTarPerm extractEntry spec/suites/templates/coffee/quotes.html
+191 silly gunzTarPerm extractEntry spec/suites/templates/coffee/variable_assignment.haml
+192 silly gunzTarPerm extractEntry spec/suites/templates/coffee/variable_assignment.html
+193 silly gunzTarPerm extractEntry spec/suites/templates/directives/include.haml
+194 silly gunzTarPerm extractEntry spec/suites/templates/directives/include.html
+195 silly gunzTarPerm extractEntry spec/suites/templates/directives/partials/test.haml
+196 silly gunzTarPerm extractEntry spec/suites/templates/filters/javascript.haml
+197 silly gunzTarPerm extractEntry spec/suites/templates/filters/cdata.haml
+198 silly gunzTarPerm extractEntry spec/suites/templates/filters/coffeescript.haml
+199 silly gunzTarPerm extractEntry spec/suites/templates/filters/coffeescript.html
+200 silly gunzTarPerm extractEntry spec/suites/templates/filters/css.haml
+201 silly gunzTarPerm extractEntry spec/suites/templates/filters/css_html4.html
+202 silly gunzTarPerm extractEntry spec/suites/templates/filters/css_html5.html
+203 silly gunzTarPerm extractEntry spec/suites/templates/filters/css_xhtml.html
+204 silly gunzTarPerm extractEntry spec/suites/templates/filters/escaped.haml
+205 silly gunzTarPerm extractEntry spec/suites/templates/filters/escaped.html
+206 silly gunzTarPerm extractEntry spec/suites/templates/filters/cdata.html
+207 silly gunzTarPerm extractEntry spec/suites/templates/filters/javascript_html4.html
+208 silly gunzTarPerm extractEntry spec/suites/templates/filters/javascript_html5.html
+209 silly gunzTarPerm extractEntry spec/suites/templates/filters/javascript_xhtml.html
+210 silly gunzTarPerm extractEntry spec/suites/templates/filters/plain.haml
+211 silly gunzTarPerm extractEntry spec/suites/templates/filters/plain.html
+212 silly gunzTarPerm extractEntry spec/suites/templates/filters/preserve.haml
+213 silly gunzTarPerm extractEntry spec/suites/templates/filters/preserve.html
+214 silly gunzTarPerm extractEntry spec/suites/templates/filters/script_css.haml
+215 silly gunzTarPerm extractEntry spec/suites/templates/filters/script_css.html
+216 silly gunzTarPerm extractEntry spec/suites/templates/text/embedded_html.html
+217 silly gunzTarPerm extractEntry spec/suites/templates/text/attributes.haml
+218 silly gunzTarPerm extractEntry spec/suites/templates/text/attributes_xhtml.html
+219 silly gunzTarPerm extractEntry spec/suites/templates/text/blank.haml
+220 silly gunzTarPerm extractEntry spec/suites/templates/text/blank.html
+221 silly gunzTarPerm extractEntry spec/suites/templates/text/boolean_attributes.haml
+222 silly gunzTarPerm extractEntry spec/suites/templates/text/boolean_attributes_html5.html
+223 silly gunzTarPerm extractEntry spec/suites/templates/text/boolean_attributes_xhtml.html
+224 silly gunzTarPerm extractEntry spec/suites/templates/text/comments.haml
+225 silly gunzTarPerm extractEntry spec/suites/templates/text/comments.html
+226 silly gunzTarPerm extractEntry spec/suites/templates/text/div_nesting.haml
+227 silly gunzTarPerm extractEntry spec/suites/templates/text/div_nesting.html
+228 silly gunzTarPerm extractEntry spec/suites/templates/text/embedded_html.haml
+229 silly gunzTarPerm extractEntry spec/suites/templates/text/attributes_html5.html
+230 silly gunzTarPerm extractEntry spec/suites/templates/text/escaping.haml
+231 silly gunzTarPerm extractEntry spec/suites/templates/text/escaping_off.html
+232 silly gunzTarPerm extractEntry spec/suites/templates/text/escaping_on.html
+233 silly gunzTarPerm extractEntry spec/suites/templates/text/haml_online_example.haml
+234 silly gunzTarPerm extractEntry spec/suites/templates/text/haml_online_example.html
+235 silly gunzTarPerm extractEntry spec/suites/templates/text/indention.haml
+236 silly gunzTarPerm extractEntry spec/suites/templates/text/indention.html
+237 silly gunzTarPerm extractEntry spec/suites/templates/text/long.haml
+238 silly gunzTarPerm extractEntry spec/suites/templates/text/long.html
+239 silly gunzTarPerm extractEntry spec/suites/templates/text/no_value_attributes.haml
+240 silly gunzTarPerm extractEntry spec/suites/templates/text/no_value_attributes.html
+241 silly gunzTarPerm extractEntry spec/suites/templates/text/whitespace.haml
+242 silly gunzTarPerm extractEntry spec/suites/templates/text/whitespace.html
+243 silly gunzTarPerm extractEntry src/cli/coffee-maker.coffee
+244 silly gunzTarPerm extractEntry src/cli/command.coffee
+245 silly gunzTarPerm extractEntry src/haml-coffee.coffee
+246 silly gunzTarPerm extractEntry src/hamlc.coffee
+247 silly gunzTarPerm extractEntry src/nodes/code.coffee
+248 silly gunzTarPerm extractEntry src/nodes/comment.coffee
+249 silly gunzTarPerm extractEntry src/nodes/directive.coffee
+250 silly gunzTarPerm extractEntry src/nodes/filter.coffee
+251 silly gunzTarPerm extractEntry src/nodes/haml.coffee
+252 silly gunzTarPerm extractEntry src/nodes/node.coffee
+253 silly gunzTarPerm extractEntry src/nodes/text.coffee
+254 silly gunzTarPerm extractEntry src/util/text.coffee
+255 silly lockFile fefb0950-nt-haml-node-modules-haml-coffee tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+256 silly lockFile fefb0950-nt-haml-node-modules-haml-coffee tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+257 silly lockFile 54a1d15c-e-haml-coffee-1-14-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\haml-coffee\1.14.1\package.tgz
+258 silly lockFile 54a1d15c-e-haml-coffee-1-14-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\haml-coffee\1.14.1\package.tgz
+259 info preinstall haml-coffee@1.14.1
+260 verbose readDependencies using package.json deps
+261 verbose readDependencies using package.json deps
+262 verbose cache add [ 'coffee-script@>= 1.1.3', null ]
+263 verbose cache add name=undefined spec="coffee-script@>= 1.1.3" args=["coffee-script@>= 1.1.3",null]
+264 verbose parsed url { protocol: null,
+264 verbose parsed url   slashes: null,
+264 verbose parsed url   auth: null,
+264 verbose parsed url   host: null,
+264 verbose parsed url   port: null,
+264 verbose parsed url   hostname: null,
+264 verbose parsed url   hash: null,
+264 verbose parsed url   search: null,
+264 verbose parsed url   query: null,
+264 verbose parsed url   pathname: 'coffee-script@%3E=%201.1.3',
+264 verbose parsed url   path: 'coffee-script@%3E=%201.1.3',
+264 verbose parsed url   href: 'coffee-script@%3E=%201.1.3' }
+265 verbose cache add name="coffee-script" spec=">= 1.1.3" args=["coffee-script",">= 1.1.3"]
+266 verbose parsed url { protocol: null,
+266 verbose parsed url   slashes: null,
+266 verbose parsed url   auth: null,
+266 verbose parsed url   host: null,
+266 verbose parsed url   port: null,
+266 verbose parsed url   hostname: null,
+266 verbose parsed url   hash: null,
+266 verbose parsed url   search: null,
+266 verbose parsed url   query: null,
+266 verbose parsed url   pathname: '%3E=%201.1.3',
+266 verbose parsed url   path: '%3E=%201.1.3',
+266 verbose parsed url   href: '%3E=%201.1.3' }
+267 verbose addNamed [ 'coffee-script', '>= 1.1.3' ]
+268 verbose addNamed [ null, '>=1.1.3' ]
+269 silly lockFile 2f6d4ae5-coffee-script-1-1-3 coffee-script@>= 1.1.3
+270 verbose lock coffee-script@>= 1.1.3 C:\Users\Administrator\AppData\Roaming\npm-cache\2f6d4ae5-coffee-script-1-1-3.lock
+271 verbose cache add [ 'walkdir@~0.0.7', null ]
+272 verbose cache add name=undefined spec="walkdir@~0.0.7" args=["walkdir@~0.0.7",null]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: 'walkdir@~0.0.7',
+273 verbose parsed url   path: 'walkdir@~0.0.7',
+273 verbose parsed url   href: 'walkdir@~0.0.7' }
+274 verbose cache add name="walkdir" spec="~0.0.7" args=["walkdir","~0.0.7"]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: '~0.0.7',
+275 verbose parsed url   path: '~0.0.7',
+275 verbose parsed url   href: '~0.0.7' }
+276 verbose addNamed [ 'walkdir', '~0.0.7' ]
+277 verbose addNamed [ null, '>=0.0.7-0 <0.1.0-0' ]
+278 silly lockFile e13052ed-walkdir-0-0-7 walkdir@~0.0.7
+279 verbose lock walkdir@~0.0.7 C:\Users\Administrator\AppData\Roaming\npm-cache\e13052ed-walkdir-0-0-7.lock
+280 verbose cache add [ 'optimist@~0.6.0', null ]
+281 verbose cache add name=undefined spec="optimist@~0.6.0" args=["optimist@~0.6.0",null]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: null,
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: 'optimist@~0.6.0',
+282 verbose parsed url   path: 'optimist@~0.6.0',
+282 verbose parsed url   href: 'optimist@~0.6.0' }
+283 verbose cache add name="optimist" spec="~0.6.0" args=["optimist","~0.6.0"]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: '~0.6.0',
+284 verbose parsed url   path: '~0.6.0',
+284 verbose parsed url   href: '~0.6.0' }
+285 verbose addNamed [ 'optimist', '~0.6.0' ]
+286 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+287 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+288 verbose lock optimist@~0.6.0 C:\Users\Administrator\AppData\Roaming\npm-cache\07193858-optimist-0-6-0.lock
+289 silly addNameRange { name: 'walkdir', range: '>=0.0.7-0 <0.1.0-0', hasData: false }
+290 silly addNameRange { name: 'coffee-script', range: '>=1.1.3', hasData: false }
+291 silly addNameRange { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+292 verbose url raw walkdir
+293 verbose url resolving [ 'https://registry.npmjs.org/', './walkdir' ]
+294 verbose url resolved https://registry.npmjs.org/walkdir
+295 info trying registry request attempt 1 at 10:27:30
+296 verbose etag "6X2YYT57C4TTFQBEIFUEBAPK3"
+297 http GET https://registry.npmjs.org/walkdir
+298 verbose url raw coffee-script
+299 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+300 verbose url resolved https://registry.npmjs.org/coffee-script
+301 info trying registry request attempt 1 at 10:27:30
+302 verbose etag "DDXMOLHNZ5PB5J4S9FJGFOWG7"
+303 http GET https://registry.npmjs.org/coffee-script
+304 verbose url raw optimist
+305 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+306 verbose url resolved https://registry.npmjs.org/optimist
+307 info trying registry request attempt 1 at 10:27:30
+308 verbose etag "F0RCJOZSPNE7QUDS3BBUIYLWX"
+309 http GET https://registry.npmjs.org/optimist
+310 http 304 https://registry.npmjs.org/walkdir
+311 silly registry.get cb [ 304,
+311 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:32 GMT',
+311 silly registry.get     server: 'Apache',
+311 silly registry.get     via: '1.1 varnish',
+311 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:32 GMT',
+311 silly registry.get     'cache-control': 'max-age=60',
+311 silly registry.get     etag: '"6X2YYT57C4TTFQBEIFUEBAPK3"',
+311 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+311 silly registry.get     'x-cache': 'HIT',
+311 silly registry.get     'x-cache-hits': '1',
+311 silly registry.get     'x-timer': 'S1411979252.926681,VS0,VE0',
+311 silly registry.get     vary: 'Accept',
+311 silly registry.get     'content-length': '0',
+311 silly registry.get     'keep-alive': 'timeout=10, max=50',
+311 silly registry.get     connection: 'Keep-Alive' } ]
+312 verbose etag walkdir from cache
+313 silly addNameRange number 2 { name: 'walkdir', range: '>=0.0.7-0 <0.1.0-0', hasData: true }
+314 silly addNameRange versions [ 'walkdir',
+314 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.7' ] ]
+315 verbose addNamed [ 'walkdir', '0.0.7' ]
+316 verbose addNamed [ '0.0.7', '0.0.7' ]
+317 silly lockFile 504ee366-walkdir-0-0-7 walkdir@0.0.7
+318 verbose lock walkdir@0.0.7 C:\Users\Administrator\AppData\Roaming\npm-cache\504ee366-walkdir-0-0-7.lock
+319 silly lockFile 504ee366-walkdir-0-0-7 walkdir@0.0.7
+320 silly lockFile 504ee366-walkdir-0-0-7 walkdir@0.0.7
+321 silly lockFile e13052ed-walkdir-0-0-7 walkdir@~0.0.7
+322 silly lockFile e13052ed-walkdir-0-0-7 walkdir@~0.0.7
+323 http 304 https://registry.npmjs.org/coffee-script
+324 silly registry.get cb [ 304,
+324 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:32 GMT',
+324 silly registry.get     server: 'Apache',
+324 silly registry.get     via: '1.1 varnish',
+324 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:32 GMT',
+324 silly registry.get     'cache-control': 'max-age=60',
+324 silly registry.get     etag: '"DDXMOLHNZ5PB5J4S9FJGFOWG7"',
+324 silly registry.get     'x-served-by': 'cache-fra1234-FRA',
+324 silly registry.get     'x-cache': 'HIT',
+324 silly registry.get     'x-cache-hits': '1',
+324 silly registry.get     'x-timer': 'S1411979252.942600,VS0,VE0',
+324 silly registry.get     vary: 'Accept',
+324 silly registry.get     'content-length': '0',
+324 silly registry.get     'keep-alive': 'timeout=10, max=50',
+324 silly registry.get     connection: 'Keep-Alive' } ]
+325 verbose etag coffee-script from cache
+326 silly addNameRange number 2 { name: 'coffee-script', range: '>=1.1.3', hasData: true }
+327 silly addNameRange versions [ 'coffee-script',
+327 silly addNameRange   [ '0.7.0',
+327 silly addNameRange     '0.7.1',
+327 silly addNameRange     '0.7.2',
+327 silly addNameRange     '0.9.0',
+327 silly addNameRange     '0.9.1',
+327 silly addNameRange     '0.9.2',
+327 silly addNameRange     '0.9.3',
+327 silly addNameRange     '0.9.4',
+327 silly addNameRange     '0.9.5',
+327 silly addNameRange     '0.9.6',
+327 silly addNameRange     '1.0.0',
+327 silly addNameRange     '1.0.1',
+327 silly addNameRange     '1.1.0',
+327 silly addNameRange     '1.1.1',
+327 silly addNameRange     '1.1.2',
+327 silly addNameRange     '1.1.3',
+327 silly addNameRange     '1.2.0',
+327 silly addNameRange     '1.3.0',
+327 silly addNameRange     '1.3.1',
+327 silly addNameRange     '1.3.2',
+327 silly addNameRange     '1.3.3',
+327 silly addNameRange     '1.4.0',
+327 silly addNameRange     '1.5.0',
+327 silly addNameRange     '1.6.0',
+327 silly addNameRange     '1.6.1',
+327 silly addNameRange     '1.6.2',
+327 silly addNameRange     '1.6.3',
+327 silly addNameRange     '1.7.0',
+327 silly addNameRange     '1.7.1',
+327 silly addNameRange     '1.8.0' ] ]
+328 verbose addNamed [ 'coffee-script', '1.8.0' ]
+329 verbose addNamed [ '1.8.0', '1.8.0' ]
+330 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+331 verbose lock coffee-script@1.8.0 C:\Users\Administrator\AppData\Roaming\npm-cache\d0d79082-coffee-script-1-8-0.lock
+332 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+333 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+334 silly lockFile 2f6d4ae5-coffee-script-1-1-3 coffee-script@>= 1.1.3
+335 silly lockFile 2f6d4ae5-coffee-script-1-1-3 coffee-script@>= 1.1.3
+336 http 304 https://registry.npmjs.org/optimist
+337 silly registry.get cb [ 304,
+337 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:32 GMT',
+337 silly registry.get     server: 'Apache',
+337 silly registry.get     via: '1.1 varnish',
+337 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:26:58 GMT',
+337 silly registry.get     'cache-control': 'max-age=60',
+337 silly registry.get     etag: '"F0RCJOZSPNE7QUDS3BBUIYLWX"',
+337 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+337 silly registry.get     'x-cache': 'HIT',
+337 silly registry.get     'x-cache-hits': '3',
+337 silly registry.get     'x-timer': 'S1411979252.961499,VS0,VE0',
+337 silly registry.get     vary: 'Accept',
+337 silly registry.get     'content-length': '0',
+337 silly registry.get     'keep-alive': 'timeout=10, max=50',
+337 silly registry.get     connection: 'Keep-Alive' } ]
+338 verbose etag optimist from cache
+339 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+340 silly addNameRange versions [ 'optimist',
+340 silly addNameRange   [ '0.0.1',
+340 silly addNameRange     '0.0.2',
+340 silly addNameRange     '0.0.4',
+340 silly addNameRange     '0.0.5',
+340 silly addNameRange     '0.0.6',
+340 silly addNameRange     '0.0.7',
+340 silly addNameRange     '0.1.0',
+340 silly addNameRange     '0.1.1',
+340 silly addNameRange     '0.1.2',
+340 silly addNameRange     '0.1.3',
+340 silly addNameRange     '0.1.4',
+340 silly addNameRange     '0.1.5',
+340 silly addNameRange     '0.1.6',
+340 silly addNameRange     '0.1.7',
+340 silly addNameRange     '0.1.8',
+340 silly addNameRange     '0.1.9',
+340 silly addNameRange     '0.0.3',
+340 silly addNameRange     '0.2.0',
+340 silly addNameRange     '0.2.1',
+340 silly addNameRange     '0.2.2',
+340 silly addNameRange     '0.2.3',
+340 silly addNameRange     '0.2.4',
+340 silly addNameRange     '0.2.5',
+340 silly addNameRange     '0.2.6',
+340 silly addNameRange     '0.2.7',
+340 silly addNameRange     '0.2.8',
+340 silly addNameRange     '0.3.0',
+340 silly addNameRange     '0.3.1',
+340 silly addNameRange     '0.3.3',
+340 silly addNameRange     '0.3.4',
+340 silly addNameRange     '0.3.5',
+340 silly addNameRange     '0.3.6',
+340 silly addNameRange     '0.3.7',
+340 silly addNameRange     '0.4.0',
+340 silly addNameRange     '0.5.0',
+340 silly addNameRange     '0.5.1',
+340 silly addNameRange     '0.5.2',
+340 silly addNameRange     '0.6.0',
+340 silly addNameRange     '0.6.1' ] ]
+341 verbose addNamed [ 'optimist', '0.6.1' ]
+342 verbose addNamed [ '0.6.1', '0.6.1' ]
+343 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+344 verbose lock optimist@0.6.1 C:\Users\Administrator\AppData\Roaming\npm-cache\0fc74eb8-optimist-0-6-1.lock
+345 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+346 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+347 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+348 silly lockFile 07193858-optimist-0-6-0 optimist@~0.6.0
+349 silly resolved [ { name: 'walkdir',
+349 silly resolved     description: 'Find files simply. Walks a directory tree emitting events based on what it finds. Presents a familliar callback/emitter/a+sync interface. Walk a tree of any depth.',
+349 silly resolved     version: '0.0.7',
+349 silly resolved     author: { name: 'Ryan Day', email: 'soldair@gmail.com' },
+349 silly resolved     keywords: [ 'find', 'walk', 'tree', 'files', 'fs' ],
+349 silly resolved     main: './walkdir.js',
+349 silly resolved     homepage: 'http://github.com/soldair/node-walkdir',
+349 silly resolved     repository:
+349 silly resolved      { type: 'git',
+349 silly resolved        url: 'git://github.com/soldair/node-walkdir.git' },
+349 silly resolved     scripts: { test: './test.sh' },
+349 silly resolved     devDependencies: { tap: '*', jshint: '0.5.x' },
+349 silly resolved     engines: { node: '>=0.6.0' },
+349 silly resolved     license: 'MIT/X11',
+349 silly resolved     contributors: [ [Object] ],
+349 silly resolved     readme: '[![Build Status](https://secure.travis-ci.org/soldair/node-walkdir.png)](http://travis-ci.org/soldair/node-walkdir)\n \n## walkdir\n\nFind files. Walks a directory tree emitting events based on what it finds. Presents a familliar callback/emitter/sync interface. Walk a tree of any depth. This is a performant option any pull requests to make it more so will be talken into consderation.. \n\n## Example\n\n```js\n\nvar walk = require(\'walkdir\');\n\n//async with path callback \n\nwalk(\'../\',function(path,stat){\n  console.log(\'found: \',path);\n});\n\n//use async emitter to capture more events\n\nvar emitter = walk(\'../\');\n\nemitter.on(\'file\',function(filename,stat){\n  console.log(\'file from emitter: \', filename);\n});\n\n\n//sync with callback\n\nwalk.sync(\'../\',function(path,stat){\n  console.log(\'found sync:\',path);\n});\n\n//sync just need paths\n\nvar paths = walk.sync(\'../\');\nconsole.log(\'found paths sync: \',paths);\n\n```\n\n\n## install\n\n\tnpm install walkdir\n\n## arguments\n\nwalkdir(path, [options], [callback])\nwalkdir.sync(path, [options], [callback]);\n\n- path\n  - the starting point of your directory walk\n\n- options. supported options are\n  - general\n\n\t```js\n\t{\n\t"follow_symlinks":false, // default is off \n\t"no_recurse":false,      // only recurse one level deep\n\t"max_depth":undefined    // only recurse down to max_depth. if you need more than no_recurse\n\t}\n\t```\n\n  - sync only\n\n\t```js\n\t{\n\t"return_object":false, // if true the sync return will be in {path:stat} format instead of [path,path,...]\n\t"no_return":false, // if true null will be returned and no array or object will be created with found paths. useful for large listings\n\t}\n\t```\n\n- callback\n  - this is bound to the path event of the emitter. its optional in all cases.\n\n\t```js\n\tcallback(path,stat)\n\t```\n\n## events\n\nnon error type events are emitted with (path,stat). stat is an instanceof fs.Stats\n\n###path\nfired for everything\n\n###file\nfired only for regular files\n\n###directory\nfired only for directories\n\n###link\nfired when a symbolic link is found\n\n###end\nfired when the entire tree has been read and emitted.\n\n###socket\nfired when a socket descriptor is found\n\n###fifo\nfired when a fifo is found\n\n###characterdevice\nfired when a character device is found\n\n###blockdevice\nfired when a block device is found\n\n###targetdirectory\nfired for the stat of the path you provided as the first argument. is is only fired if it is a directory.\n\n###empty\nfired for empty directory\n\n## error events\nerror type events are emitted with (path,error). error being the error object returned from an fs call or other opperation.\n\n###error\nif the target path cannot be read an error event is emitted. this is the only failure case.\n\n###fail\nwhen stat or read fails on a path somewhere in the walk and it is not your target path you get a fail event instead of error.\nThis is handy if you want to find places you dont have access too.\n\n## notes\nthe async emitter returned supports 3 methods\n\n###end\n  stop a walk in progress\n\n###pause\n  pause the walk. no more events will be emitted until resume\n\n###resume\n  resume the walk\n\n### cancel a walk in progress\n  ```js\n  //cancel a walk in progress within callback.\n\n  var walk = require(\'walkdir\');\n  walk(\'../\',function(path,stat){\n    this.end();\n  });\n\n  //cancel a walk in progress with emitter handle\n  var walk = require(\'walkdir\');\n  var emitter = walk(\'../\');\n\n  doSomethingAsync(function(){\n\temitter.end();\n  })\n  ```\n\n## thanks\nthanks to substack. the interface for this module is based off of node-findit\n\n',
+349 silly resolved     readmeFilename: 'readme.md',
+349 silly resolved     bugs: { url: 'https://github.com/soldair/node-walkdir/issues' },
+349 silly resolved     _id: 'walkdir@0.0.7',
+349 silly resolved     _shasum: '04da0270a87a778540173cdbf0a2db499a8d9e29',
+349 silly resolved     _from: 'walkdir@~0.0.7',
+349 silly resolved     _resolved: 'https://registry.npmjs.org/walkdir/-/walkdir-0.0.7.tgz' },
+349 silly resolved   { name: 'coffee-script',
+349 silly resolved     description: 'Unfancy JavaScript',
+349 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+349 silly resolved     author: { name: 'Jeremy Ashkenas' },
+349 silly resolved     version: '1.8.0',
+349 silly resolved     license: 'MIT',
+349 silly resolved     engines: { node: '>=0.8.0' },
+349 silly resolved     directories: { lib: './lib/coffee-script' },
+349 silly resolved     main: './lib/coffee-script/coffee-script',
+349 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+349 silly resolved     preferGlobal: true,
+349 silly resolved     scripts: { test: 'node ./bin/cake test' },
+349 silly resolved     homepage: 'http://coffeescript.org',
+349 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffeescript/issues' },
+349 silly resolved     repository:
+349 silly resolved      { type: 'git',
+349 silly resolved        url: 'git://github.com/jashkenas/coffeescript.git' },
+349 silly resolved     devDependencies:
+349 silly resolved      { 'uglify-js': '~2.2',
+349 silly resolved        jison: '>=0.2.0',
+349 silly resolved        'highlight.js': '~8.0.0',
+349 silly resolved        underscore: '~1.5.2',
+349 silly resolved        docco: '~0.6.2' },
+349 silly resolved     dependencies: { mkdirp: '~0.3.5' },
+349 silly resolved     readme: '            {\n         }   }   {\n        {   {  }  }\n         }   }{  {\n        {  }{  }  }                    _____       __  __\n       { }{ }{  { }                   / ____|     / _|/ _|\n     .- { { }  { }} -.               | |     ___ | |_| |_ ___  ___\n    (  { } { } { } }  )              | |    / _ \\|  _|  _/ _ \\/ _ \\\n    |`-..________ ..-\'|              | |___| (_) | | | ||  __/  __/\n    |                 |               \\_____\\___/|_| |_| \\___|\\___|\n    |                 ;--.\n    |                (__  \\            _____           _       _\n    |                 | )  )          / ____|         (_)     | |\n    |                 |/  /          | (___   ___ _ __ _ _ __ | |_\n    |                 (  /            \\___ \\ / __| \'__| | \'_ \\| __|\n    |                 |/              ____) | (__| |  | | |_) | |_\n    |                 |              |_____/ \\___|_|  |_| .__/ \\__|\n     `-.._________..-\'                                  | |\n                                                        |_|\n\nCoffeeScript is a little language that compiles into JavaScript.\n\n## Installation\n\nIf you have the node package manager, npm, installed:\n\n```shell\nnpm install -g coffee-script\n```\n\nLeave off the `-g` if you don\'t wish to install globally. If you don\'t wish to use npm:\n\n```shell\ngit clone https://github.com/jashkenas/coffeescript.git\nsudo coffeescript/bin/cake install\n```\n\n## Getting Started\n\nExecute a script:\n\n```shell\ncoffee /path/to/script.coffee\n```\n\nCompile a script:\n\n```shell\ncoffee -c /path/to/script.coffee\n```\n\nFor documentation, usage, and examples, see: http://coffeescript.org/\n\nTo suggest a feature or report a bug: http://github.com/jashkenas/coffeescript/issues\n\nIf you\'d like to chat, drop by #coffeescript on Freenode IRC.\n\nThe source repository: https://github.com/jashkenas/coffeescript.git\n\nOur lovely and talented contributors are listed here: http://github.com/jashkenas/coffeescript/contributors\n',
+349 silly resolved     readmeFilename: 'README.md',
+349 silly resolved     _id: 'coffee-script@1.8.0',
+349 silly resolved     _shasum: '9c9f1d2b4a52a000ded15b659791703648263c1d',
+349 silly resolved     _from: 'coffee-script@>= 1.1.3',
+349 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz' },
+349 silly resolved   { name: 'optimist',
+349 silly resolved     version: '0.6.1',
+349 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+349 silly resolved     main: './index.js',
+349 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+349 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+349 silly resolved     scripts: { test: 'tap ./test/*.js' },
+349 silly resolved     repository:
+349 silly resolved      { type: 'git',
+349 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+349 silly resolved     keywords:
+349 silly resolved      [ 'argument',
+349 silly resolved        'args',
+349 silly resolved        'option',
+349 silly resolved        'parser',
+349 silly resolved        'parsing',
+349 silly resolved        'cli',
+349 silly resolved        'command' ],
+349 silly resolved     author:
+349 silly resolved      { name: 'James Halliday',
+349 silly resolved        email: 'mail@substack.net',
+349 silly resolved        url: 'http://substack.net' },
+349 silly resolved     license: 'MIT/X11',
+349 silly resolved     engine: { node: '>=0.4' },
+349 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+349 silly resolved     readmeFilename: 'readme.markdown',
+349 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+349 silly resolved     homepage: 'https://github.com/substack/node-optimist',
+349 silly resolved     _id: 'optimist@0.6.1',
+349 silly resolved     _shasum: 'da3ea74686fa21a19a111c326e90eb15a0196686',
+349 silly resolved     _from: 'optimist@~0.6.0',
+349 silly resolved     _resolved: 'https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz' } ]
+350 info install walkdir@0.0.7 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+351 info install coffee-script@1.8.0 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+352 info install optimist@0.6.1 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+353 info installOne walkdir@0.0.7
+354 info installOne coffee-script@1.8.0
+355 info installOne optimist@0.6.1
+356 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir unbuild
+357 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script unbuild
+358 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist unbuild
+359 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\walkdir\0.0.7\package.tgz
+360 silly lockFile f6c90c52-haml-coffee-node-modules-walkdir tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir
+361 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir C:\Users\Administrator\AppData\Roaming\npm-cache\f6c90c52-haml-coffee-node-modules-walkdir.lock
+362 silly lockFile 84d560f8--cache-walkdir-0-0-7-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\walkdir\0.0.7\package.tgz
+363 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\walkdir\0.0.7\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\84d560f8--cache-walkdir-0-0-7-package-tgz.lock
+364 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\coffee-script\1.8.0\package.tgz
+365 silly lockFile 31982538-offee-node-modules-coffee-script tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+366 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script C:\Users\Administrator\AppData\Roaming\npm-cache\31982538-offee-node-modules-coffee-script.lock
+367 silly lockFile 6a0c0136--coffee-script-1-8-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\coffee-script\1.8.0\package.tgz
+368 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\coffee-script\1.8.0\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\6a0c0136--coffee-script-1-8-0-package-tgz.lock
+369 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+370 silly lockFile 89775838-aml-coffee-node-modules-optimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+371 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist C:\Users\Administrator\AppData\Roaming\npm-cache\89775838-aml-coffee-node-modules-optimist.lock
+372 silly lockFile 9bab169a-cache-optimist-0-6-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+373 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\9bab169a-cache-optimist-0-6-1-package-tgz.lock
+374 silly gunzTarPerm modes [ '755', '644' ]
+375 silly gunzTarPerm modes [ '755', '644' ]
+376 silly gunzTarPerm modes [ '755', '644' ]
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm extractEntry package.json
+379 silly gunzTarPerm extractEntry package.json
+380 silly gunzTarPerm extractEntry .npmignore
+381 silly gunzTarPerm extractEntry walkdir.js
+382 silly gunzTarPerm extractEntry .npmignore
+383 silly gunzTarPerm extractEntry README
+384 silly gunzTarPerm extractEntry LICENSE
+385 silly gunzTarPerm extractEntry index.js
+386 silly gunzTarPerm extractEntry .jshintignore
+387 silly gunzTarPerm extractEntry .travis.yml
+388 silly gunzTarPerm extractEntry README.md
+389 silly gunzTarPerm extractEntry .travis.yml
+390 silly gunzTarPerm extractEntry example/bool.js
+391 silly gunzTarPerm extractEntry LICENSE
+392 silly gunzTarPerm extractEntry license
+393 silly gunzTarPerm extractEntry readme.md
+394 silly gunzTarPerm extractEntry register.js
+395 silly gunzTarPerm extractEntry repl.js
+396 silly gunzTarPerm extractEntry example/default_singles.js
+397 silly gunzTarPerm extractEntry example/divide.js
+398 silly gunzTarPerm extractEntry example/line_count.js
+399 silly gunzTarPerm extractEntry example/default_hash.js
+400 silly gunzTarPerm extractEntry example/line_count_wrap.js
+401 silly gunzTarPerm extractEntry example/nonopt.js
+402 silly gunzTarPerm extractEntry example/reflect.js
+403 silly gunzTarPerm extractEntry example/short.js
+404 silly gunzTarPerm extractEntry example/string.js
+405 silly gunzTarPerm extractEntry example/boolean_single.js
+406 silly gunzTarPerm extractEntry example/usage-options.js
+407 silly gunzTarPerm extractEntry example/boolean_double.js
+408 silly gunzTarPerm extractEntry example/xup.js
+409 silly gunzTarPerm extractEntry example/line_count_options.js
+410 silly gunzTarPerm extractEntry readme.markdown
+411 silly gunzTarPerm extractEntry test/_.js
+412 silly gunzTarPerm extractEntry test/dash.js
+413 silly gunzTarPerm extractEntry test/parse.js
+414 silly gunzTarPerm extractEntry test/parse_modified.js
+415 silly gunzTarPerm extractEntry test/short.js
+416 silly gunzTarPerm extractEntry test/usage.js
+417 silly gunzTarPerm extractEntry test/whitespace.js
+418 silly gunzTarPerm extractEntry test/_/argv.js
+419 silly gunzTarPerm extractEntry test/_/bin.js
+420 silly gunzTarPerm extractEntry CNAME
+421 silly gunzTarPerm extractEntry bin/cake
+422 silly gunzTarPerm extractEntry test/async.js
+423 silly gunzTarPerm extractEntry test/endearly.js
+424 silly gunzTarPerm extractEntry test/max_depth.js
+425 silly gunzTarPerm extractEntry bin/coffee
+426 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+427 silly gunzTarPerm extractEntry test/no_recurse.js
+428 silly gunzTarPerm extractEntry test/nofailemptydir.js
+429 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+430 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+431 silly gunzTarPerm extractEntry test/pauseresume.js
+432 silly gunzTarPerm extractEntry test/symlink.js
+433 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+434 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+435 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+436 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+437 silly gunzTarPerm extractEntry test/sync.js
+438 silly gunzTarPerm extractEntry test/comparison/package.json
+439 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+440 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+441 silly gunzTarPerm extractEntry test/comparison/find.js
+442 silly gunzTarPerm extractEntry test/comparison/finditsynctest.js
+443 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+444 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+445 silly gunzTarPerm extractEntry test/comparison/findittest.js
+446 silly gunzTarPerm extractEntry test/comparison/fstream.js
+447 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+448 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+449 silly gunzTarPerm extractEntry test/comparison/lsr.js
+450 silly gunzTarPerm extractEntry test/comparison/find.py
+451 silly gunzTarPerm extractEntry test/comparison/install_test_deps.sh
+452 silly gunzTarPerm extractEntry test/dir/foo/a/b/c/w
+453 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+454 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+455 silly gunzTarPerm extractEntry test/dir/foo/a/b/z
+456 silly gunzTarPerm extractEntry test/dir/foo/a/y
+457 silly gunzTarPerm extractEntry test/dir/foo/x
+458 silly gunzTarPerm extractEntry test/dir/symlinks/dir1/file1
+459 silly gunzTarPerm extractEntry test/dir/symlinks/dir2/file2
+460 silly gunzTarPerm extractEntry test/dir/symlinks/file
+461 silly gunzTarPerm extractEntry test.sh
+462 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+463 silly gunzTarPerm extractEntry CONTRIBUTING.md
+464 silly lockFile 89775838-aml-coffee-node-modules-optimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+465 silly lockFile 89775838-aml-coffee-node-modules-optimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+466 silly lockFile 9bab169a-cache-optimist-0-6-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+467 silly lockFile 9bab169a-cache-optimist-0-6-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\optimist\0.6.1\package.tgz
+468 info preinstall optimist@0.6.1
+469 verbose readDependencies using package.json deps
+470 verbose readDependencies using package.json deps
+471 silly lockFile f6c90c52-haml-coffee-node-modules-walkdir tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir
+472 silly lockFile f6c90c52-haml-coffee-node-modules-walkdir tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir
+473 silly lockFile 84d560f8--cache-walkdir-0-0-7-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\walkdir\0.0.7\package.tgz
+474 silly lockFile 84d560f8--cache-walkdir-0-0-7-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\walkdir\0.0.7\package.tgz
+475 info preinstall walkdir@0.0.7
+476 verbose readDependencies using package.json deps
+477 verbose readDependencies using package.json deps
+478 silly resolved []
+479 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir
+480 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\walkdir
+481 verbose linkStuff [ false,
+481 verbose linkStuff   false,
+481 verbose linkStuff   false,
+481 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules' ]
+482 info linkStuff walkdir@0.0.7
+483 verbose linkBins walkdir@0.0.7
+484 verbose linkMans walkdir@0.0.7
+485 verbose rebuildBundles walkdir@0.0.7
+486 info install walkdir@0.0.7
+487 verbose cache add [ 'wordwrap@~0.0.2', null ]
+488 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+489 verbose parsed url { protocol: null,
+489 verbose parsed url   slashes: null,
+489 verbose parsed url   auth: null,
+489 verbose parsed url   host: null,
+489 verbose parsed url   port: null,
+489 verbose parsed url   hostname: null,
+489 verbose parsed url   hash: null,
+489 verbose parsed url   search: null,
+489 verbose parsed url   query: null,
+489 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+489 verbose parsed url   path: 'wordwrap@~0.0.2',
+489 verbose parsed url   href: 'wordwrap@~0.0.2' }
+490 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+491 verbose parsed url { protocol: null,
+491 verbose parsed url   slashes: null,
+491 verbose parsed url   auth: null,
+491 verbose parsed url   host: null,
+491 verbose parsed url   port: null,
+491 verbose parsed url   hostname: null,
+491 verbose parsed url   hash: null,
+491 verbose parsed url   search: null,
+491 verbose parsed url   query: null,
+491 verbose parsed url   pathname: '~0.0.2',
+491 verbose parsed url   path: '~0.0.2',
+491 verbose parsed url   href: '~0.0.2' }
+492 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+493 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+494 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+495 verbose lock wordwrap@~0.0.2 C:\Users\Administrator\AppData\Roaming\npm-cache\8bd42136-wordwrap-0-0-2.lock
+496 verbose cache add [ 'minimist@~0.0.1', null ]
+497 verbose cache add name=undefined spec="minimist@~0.0.1" args=["minimist@~0.0.1",null]
+498 verbose parsed url { protocol: null,
+498 verbose parsed url   slashes: null,
+498 verbose parsed url   auth: null,
+498 verbose parsed url   host: null,
+498 verbose parsed url   port: null,
+498 verbose parsed url   hostname: null,
+498 verbose parsed url   hash: null,
+498 verbose parsed url   search: null,
+498 verbose parsed url   query: null,
+498 verbose parsed url   pathname: 'minimist@~0.0.1',
+498 verbose parsed url   path: 'minimist@~0.0.1',
+498 verbose parsed url   href: 'minimist@~0.0.1' }
+499 verbose cache add name="minimist" spec="~0.0.1" args=["minimist","~0.0.1"]
+500 verbose parsed url { protocol: null,
+500 verbose parsed url   slashes: null,
+500 verbose parsed url   auth: null,
+500 verbose parsed url   host: null,
+500 verbose parsed url   port: null,
+500 verbose parsed url   hostname: null,
+500 verbose parsed url   hash: null,
+500 verbose parsed url   search: null,
+500 verbose parsed url   query: null,
+500 verbose parsed url   pathname: '~0.0.1',
+500 verbose parsed url   path: '~0.0.1',
+500 verbose parsed url   href: '~0.0.1' }
+501 verbose addNamed [ 'minimist', '~0.0.1' ]
+502 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+503 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+504 verbose lock minimist@~0.0.1 C:\Users\Administrator\AppData\Roaming\npm-cache\7a855a96-minimist-0-0-1.lock
+505 info postinstall walkdir@0.0.7
+506 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+507 silly addNameRange { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: false }
+508 verbose url raw wordwrap
+509 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+510 verbose url resolved https://registry.npmjs.org/wordwrap
+511 info trying registry request attempt 1 at 10:27:32
+512 verbose etag "BWZBG6OAWP3BCANDD0T9BQOBO"
+513 http GET https://registry.npmjs.org/wordwrap
+514 verbose url raw minimist
+515 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+516 verbose url resolved https://registry.npmjs.org/minimist
+517 info trying registry request attempt 1 at 10:27:33
+518 verbose etag "7KWKRWHB8KAPH2UTT6JGCH2YQ"
+519 http GET https://registry.npmjs.org/minimist
+520 silly lockFile 31982538-offee-node-modules-coffee-script tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+521 silly lockFile 31982538-offee-node-modules-coffee-script tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+522 silly lockFile 6a0c0136--coffee-script-1-8-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\coffee-script\1.8.0\package.tgz
+523 silly lockFile 6a0c0136--coffee-script-1-8-0-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\coffee-script\1.8.0\package.tgz
+524 info preinstall coffee-script@1.8.0
+525 verbose readDependencies using package.json deps
+526 verbose readDependencies using package.json deps
+527 verbose cache add [ 'mkdirp@~0.3.5', null ]
+528 verbose cache add name=undefined spec="mkdirp@~0.3.5" args=["mkdirp@~0.3.5",null]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: 'mkdirp@~0.3.5',
+529 verbose parsed url   path: 'mkdirp@~0.3.5',
+529 verbose parsed url   href: 'mkdirp@~0.3.5' }
+530 verbose cache add name="mkdirp" spec="~0.3.5" args=["mkdirp","~0.3.5"]
+531 verbose parsed url { protocol: null,
+531 verbose parsed url   slashes: null,
+531 verbose parsed url   auth: null,
+531 verbose parsed url   host: null,
+531 verbose parsed url   port: null,
+531 verbose parsed url   hostname: null,
+531 verbose parsed url   hash: null,
+531 verbose parsed url   search: null,
+531 verbose parsed url   query: null,
+531 verbose parsed url   pathname: '~0.3.5',
+531 verbose parsed url   path: '~0.3.5',
+531 verbose parsed url   href: '~0.3.5' }
+532 verbose addNamed [ 'mkdirp', '~0.3.5' ]
+533 verbose addNamed [ null, '>=0.3.5-0 <0.4.0-0' ]
+534 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+535 verbose lock mkdirp@~0.3.5 C:\Users\Administrator\AppData\Roaming\npm-cache\c3f0fe9b-mkdirp-0-3-5.lock
+536 silly addNameRange { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: false }
+537 verbose url raw mkdirp
+538 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+539 verbose url resolved https://registry.npmjs.org/mkdirp
+540 info trying registry request attempt 1 at 10:27:33
+541 verbose etag "C5K6Z3N1TR1E91DOOPOUICJ8B"
+542 http GET https://registry.npmjs.org/mkdirp
+543 http 304 https://registry.npmjs.org/wordwrap
+544 silly registry.get cb [ 304,
+544 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:35 GMT',
+544 silly registry.get     server: 'Apache',
+544 silly registry.get     via: '1.1 varnish',
+544 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:26:46 GMT',
+544 silly registry.get     'cache-control': 'max-age=60',
+544 silly registry.get     etag: '"BWZBG6OAWP3BCANDD0T9BQOBO"',
+544 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+544 silly registry.get     'x-cache': 'HIT',
+544 silly registry.get     'x-cache-hits': '6',
+544 silly registry.get     'x-timer': 'S1411979255.217341,VS0,VE0',
+544 silly registry.get     vary: 'Accept',
+544 silly registry.get     'content-length': '0',
+544 silly registry.get     'keep-alive': 'timeout=10, max=50',
+544 silly registry.get     connection: 'Keep-Alive' } ]
+545 verbose etag wordwrap from cache
+546 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+547 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+548 verbose addNamed [ 'wordwrap', '0.0.2' ]
+549 verbose addNamed [ '0.0.2', '0.0.2' ]
+550 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+551 verbose lock wordwrap@0.0.2 C:\Users\Administrator\AppData\Roaming\npm-cache\24a694c8-wordwrap-0-0-2.lock
+552 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+553 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+554 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+555 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+556 http 304 https://registry.npmjs.org/minimist
+557 silly registry.get cb [ 304,
+557 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:35 GMT',
+557 silly registry.get     server: 'Apache',
+557 silly registry.get     via: '1.1 varnish',
+557 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:25 GMT',
+557 silly registry.get     'cache-control': 'max-age=60',
+557 silly registry.get     etag: '"7KWKRWHB8KAPH2UTT6JGCH2YQ"',
+557 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+557 silly registry.get     'x-cache': 'HIT',
+557 silly registry.get     'x-cache-hits': '2',
+557 silly registry.get     'x-timer': 'S1411979255.229756,VS0,VE0',
+557 silly registry.get     vary: 'Accept',
+557 silly registry.get     'content-length': '0',
+557 silly registry.get     'keep-alive': 'timeout=10, max=50',
+557 silly registry.get     connection: 'Keep-Alive' } ]
+558 verbose etag minimist from cache
+559 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1-0 <0.1.0-0', hasData: true }
+560 silly addNameRange versions [ 'minimist',
+560 silly addNameRange   [ '0.0.0',
+560 silly addNameRange     '0.0.1',
+560 silly addNameRange     '0.0.2',
+560 silly addNameRange     '0.0.3',
+560 silly addNameRange     '0.0.4',
+560 silly addNameRange     '0.0.5',
+560 silly addNameRange     '0.0.6',
+560 silly addNameRange     '0.0.7',
+560 silly addNameRange     '0.0.8',
+560 silly addNameRange     '0.0.9',
+560 silly addNameRange     '0.0.10',
+560 silly addNameRange     '0.1.0',
+560 silly addNameRange     '0.2.0',
+560 silly addNameRange     '1.0.0',
+560 silly addNameRange     '1.1.0' ] ]
+561 verbose addNamed [ 'minimist', '0.0.10' ]
+562 verbose addNamed [ '0.0.10', '0.0.10' ]
+563 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+564 verbose lock minimist@0.0.10 C:\Users\Administrator\AppData\Roaming\npm-cache\92f0553b-minimist-0-0-10.lock
+565 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+566 silly lockFile 92f0553b-minimist-0-0-10 minimist@0.0.10
+567 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+568 silly lockFile 7a855a96-minimist-0-0-1 minimist@~0.0.1
+569 silly resolved [ { name: 'wordwrap',
+569 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+569 silly resolved     version: '0.0.2',
+569 silly resolved     repository:
+569 silly resolved      { type: 'git',
+569 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+569 silly resolved     main: './index.js',
+569 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+569 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+569 silly resolved     scripts: { test: 'expresso' },
+569 silly resolved     devDependencies: { expresso: '=0.7.x' },
+569 silly resolved     engines: { node: '>=0.4.0' },
+569 silly resolved     license: 'MIT/X11',
+569 silly resolved     author:
+569 silly resolved      { name: 'James Halliday',
+569 silly resolved        email: 'mail@substack.net',
+569 silly resolved        url: 'http://substack.net' },
+569 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+569 silly resolved     readmeFilename: 'README.markdown',
+569 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+569 silly resolved     homepage: 'https://github.com/substack/node-wordwrap',
+569 silly resolved     _id: 'wordwrap@0.0.2',
+569 silly resolved     _shasum: 'b79669bb42ecb409f83d583cad52ca17eaa1643f',
+569 silly resolved     _from: 'wordwrap@~0.0.2',
+569 silly resolved     _resolved: 'https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz' },
+569 silly resolved   { name: 'minimist',
+569 silly resolved     version: '0.0.10',
+569 silly resolved     description: 'parse argument options',
+569 silly resolved     main: 'index.js',
+569 silly resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+569 silly resolved     scripts: { test: 'tap test/*.js' },
+569 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+569 silly resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+569 silly resolved     homepage: 'https://github.com/substack/minimist',
+569 silly resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+569 silly resolved     author:
+569 silly resolved      { name: 'James Halliday',
+569 silly resolved        email: 'mail@substack.net',
+569 silly resolved        url: 'http://substack.net' },
+569 silly resolved     license: 'MIT',
+569 silly resolved     readme: '# minimist\n\nparse argument options\n\nThis module is the guts of optimist\'s argument parser without all the\nfanciful decoration.\n\n[![browser support](https://ci.testling.com/substack/minimist.png)](http://ci.testling.com/substack/minimist)\n\n[![build status](https://secure.travis-ci.org/substack/minimist.png)](http://travis-ci.org/substack/minimist)\n\n# example\n\n``` js\nvar argv = require(\'minimist\')(process.argv.slice(2));\nconsole.dir(argv);\n```\n\n```\n$ node example/parse.js -a beep -b boop\n{ _: [], a: \'beep\', b: \'boop\' }\n```\n\n```\n$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz\n{ _: [ \'foo\', \'bar\', \'baz\' ],\n  x: 3,\n  y: 4,\n  n: 5,\n  a: true,\n  b: true,\n  c: true,\n  beep: \'boop\' }\n```\n\n# methods\n\n``` js\nvar parseArgs = require(\'minimist\')\n```\n\n## var argv = parseArgs(args, opts={})\n\nReturn an argument object `argv` populated with the array arguments from `args`.\n\n`argv._` contains all the arguments that didn\'t have an option associated with\nthem.\n\nNumeric-looking arguments will be returned as numbers unless `opts.string` or\n`opts.boolean` is set for that argument name.\n\nAny arguments after `\'--\'` will not be parsed and will end up in `argv._`.\n\noptions can be:\n\n* `opts.string` - a string or array of strings argument names to always treat as\nstrings\n* `opts.boolean` - a string or array of strings to always treat as booleans\n* `opts.alias` - an object mapping string names to strings or arrays of string\nargument names to use as aliases\n* `opts.default` - an object mapping string argument names to default values\n\n# install\n\nWith [npm](https://npmjs.org) do:\n\n```\nnpm install minimist\n```\n\n# license\n\nMIT\n',
+569 silly resolved     readmeFilename: 'readme.markdown',
+569 silly resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+569 silly resolved     _id: 'minimist@0.0.10',
+569 silly resolved     _shasum: 'de3f98543dbf96082be48ad1a0c7cda836301dcf',
+569 silly resolved     _from: 'minimist@~0.0.1',
+569 silly resolved     _resolved: 'https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz' } ]
+570 info install wordwrap@0.0.2 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+571 info install minimist@0.0.10 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+572 info installOne wordwrap@0.0.2
+573 info installOne minimist@0.0.10
+574 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap unbuild
+575 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist unbuild
+576 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+577 silly lockFile 066eb0cb-s-optimist-node-modules-wordwrap tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap
+578 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap C:\Users\Administrator\AppData\Roaming\npm-cache\066eb0cb-s-optimist-node-modules-wordwrap.lock
+579 silly lockFile f1496ca6-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+580 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\f1496ca6-cache-wordwrap-0-0-2-package-tgz.lock
+581 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+582 silly lockFile 473b9de5-s-optimist-node-modules-minimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist
+583 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist C:\Users\Administrator\AppData\Roaming\npm-cache\473b9de5-s-optimist-node-modules-minimist.lock
+584 silly lockFile adea0ef0-ache-minimist-0-0-10-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+585 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\adea0ef0-ache-minimist-0-0-10-package-tgz.lock
+586 silly gunzTarPerm modes [ '755', '644' ]
+587 silly gunzTarPerm extractEntry index.js
+588 silly gunzTarPerm modes [ '755', '644' ]
+589 silly gunzTarPerm extractEntry .npmignore
+590 silly gunzTarPerm extractEntry package.json
+591 silly gunzTarPerm extractEntry package.json
+592 silly gunzTarPerm extractEntry LICENSE
+593 silly gunzTarPerm extractEntry index.js
+594 silly gunzTarPerm extractEntry README.markdown
+595 silly gunzTarPerm extractEntry example/center.js
+596 silly gunzTarPerm extractEntry example/meat.js
+597 silly gunzTarPerm extractEntry test/wrap.js
+598 silly gunzTarPerm extractEntry .travis.yml
+599 silly gunzTarPerm extractEntry example/parse.js
+600 silly gunzTarPerm extractEntry readme.markdown
+601 silly gunzTarPerm extractEntry test/bool.js
+602 silly gunzTarPerm extractEntry test/break.js
+603 silly gunzTarPerm extractEntry test/idleness.txt
+604 silly gunzTarPerm extractEntry test/dash.js
+605 silly gunzTarPerm extractEntry test/default_bool.js
+606 silly gunzTarPerm extractEntry test/dotted.js
+607 silly gunzTarPerm extractEntry test/long.js
+608 silly gunzTarPerm extractEntry test/num.js
+609 silly gunzTarPerm extractEntry test/parse.js
+610 silly gunzTarPerm extractEntry test/parse_modified.js
+611 silly gunzTarPerm extractEntry test/short.js
+612 silly gunzTarPerm extractEntry test/whitespace.js
+613 http 304 https://registry.npmjs.org/mkdirp
+614 silly registry.get cb [ 304,
+614 silly registry.get   { date: 'Mon, 29 Sep 2014 08:27:35 GMT',
+614 silly registry.get     server: 'Apache',
+614 silly registry.get     via: '1.1 varnish',
+614 silly registry.get     'last-modified': 'Mon, 29 Sep 2014 08:27:09 GMT',
+614 silly registry.get     'cache-control': 'max-age=60',
+614 silly registry.get     etag: '"C5K6Z3N1TR1E91DOOPOUICJ8B"',
+614 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+614 silly registry.get     'x-cache': 'HIT',
+614 silly registry.get     'x-cache-hits': '4',
+614 silly registry.get     'x-timer': 'S1411979255.282656,VS0,VE0',
+614 silly registry.get     vary: 'Accept',
+614 silly registry.get     'content-length': '0',
+614 silly registry.get     'keep-alive': 'timeout=10, max=50',
+614 silly registry.get     connection: 'Keep-Alive' } ]
+615 verbose etag mkdirp from cache
+616 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.3.5-0 <0.4.0-0', hasData: true }
+617 silly addNameRange versions [ 'mkdirp',
+617 silly addNameRange   [ '0.0.1',
+617 silly addNameRange     '0.0.2',
+617 silly addNameRange     '0.0.3',
+617 silly addNameRange     '0.0.4',
+617 silly addNameRange     '0.0.5',
+617 silly addNameRange     '0.0.6',
+617 silly addNameRange     '0.0.7',
+617 silly addNameRange     '0.1.0',
+617 silly addNameRange     '0.2.0',
+617 silly addNameRange     '0.2.1',
+617 silly addNameRange     '0.2.2',
+617 silly addNameRange     '0.3.0',
+617 silly addNameRange     '0.3.1',
+617 silly addNameRange     '0.3.2',
+617 silly addNameRange     '0.3.3',
+617 silly addNameRange     '0.3.4',
+617 silly addNameRange     '0.3.5',
+617 silly addNameRange     '0.4.0',
+617 silly addNameRange     '0.4.1',
+617 silly addNameRange     '0.4.2',
+617 silly addNameRange     '0.5.0' ] ]
+618 verbose addNamed [ 'mkdirp', '0.3.5' ]
+619 verbose addNamed [ '0.3.5', '0.3.5' ]
+620 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+621 verbose lock mkdirp@0.3.5 C:\Users\Administrator\AppData\Roaming\npm-cache\67d2df2a-mkdirp-0-3-5.lock
+622 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+623 silly lockFile 67d2df2a-mkdirp-0-3-5 mkdirp@0.3.5
+624 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+625 silly lockFile c3f0fe9b-mkdirp-0-3-5 mkdirp@~0.3.5
+626 silly resolved [ { name: 'mkdirp',
+626 silly resolved     description: 'Recursively mkdir, like `mkdir -p`',
+626 silly resolved     version: '0.3.5',
+626 silly resolved     author:
+626 silly resolved      { name: 'James Halliday',
+626 silly resolved        email: 'mail@substack.net',
+626 silly resolved        url: 'http://substack.net' },
+626 silly resolved     main: './index',
+626 silly resolved     keywords: [ 'mkdir', 'directory' ],
+626 silly resolved     repository:
+626 silly resolved      { type: 'git',
+626 silly resolved        url: 'http://github.com/substack/node-mkdirp.git' },
+626 silly resolved     scripts: { test: 'tap test/*.js' },
+626 silly resolved     devDependencies: { tap: '~0.4.0' },
+626 silly resolved     license: 'MIT',
+626 silly resolved     readme: '# mkdirp\n\nLike `mkdir -p`, but in node.js!\n\n[![build status](https://secure.travis-ci.org/substack/node-mkdirp.png)](http://travis-ci.org/substack/node-mkdirp)\n\n# example\n\n## pow.js\n\n```js\nvar mkdirp = require(\'mkdirp\');\n    \nmkdirp(\'/tmp/foo/bar/baz\', function (err) {\n    if (err) console.error(err)\n    else console.log(\'pow!\')\n});\n```\n\nOutput\n\n```\npow!\n```\n\nAnd now /tmp/foo/bar/baz exists, huzzah!\n\n# methods\n\n```js\nvar mkdirp = require(\'mkdirp\');\n```\n\n## mkdirp(dir, mode, cb)\n\nCreate a new directory and any necessary subdirectories at `dir` with octal\npermission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\n`cb(err, made)` fires with the error or the first directory `made`\nthat had to be created, if any.\n\n## mkdirp.sync(dir, mode)\n\nSynchronously create a new directory and any necessary subdirectories at `dir`\nwith octal permission string `mode`.\n\nIf `mode` isn\'t specified, it defaults to `0777 & (~process.umask())`.\n\nReturns the first directory that had to be created, if any.\n\n# install\n\nWith [npm](http://npmjs.org) do:\n\n```\nnpm install mkdirp\n```\n\n# license\n\nMIT\n',
+626 silly resolved     readmeFilename: 'readme.markdown',
+626 silly resolved     bugs: { url: 'https://github.com/substack/node-mkdirp/issues' },
+626 silly resolved     homepage: 'https://github.com/substack/node-mkdirp',
+626 silly resolved     _id: 'mkdirp@0.3.5',
+626 silly resolved     _shasum: 'de3e5f8961c88c787ee1368df849ac4413eca8d7',
+626 silly resolved     _from: 'mkdirp@~0.3.5',
+626 silly resolved     _resolved: 'https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz' } ]
+627 info install mkdirp@0.3.5 into E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+628 info installOne mkdirp@0.3.5
+629 info E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp unbuild
+630 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+631 silly lockFile 82d27b9f-offee-script-node-modules-mkdirp tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp
+632 verbose lock tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp C:\Users\Administrator\AppData\Roaming\npm-cache\82d27b9f-offee-script-node-modules-mkdirp.lock
+633 silly lockFile f46e07ad-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+634 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\f46e07ad-m-cache-mkdirp-0-3-5-package-tgz.lock
+635 silly lockFile 066eb0cb-s-optimist-node-modules-wordwrap tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap
+636 silly lockFile 066eb0cb-s-optimist-node-modules-wordwrap tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap
+637 silly gunzTarPerm modes [ '755', '644' ]
+638 silly lockFile f1496ca6-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+639 silly lockFile f1496ca6-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+640 info preinstall wordwrap@0.0.2
+641 silly gunzTarPerm extractEntry package.json
+642 verbose readDependencies using package.json deps
+643 verbose readDependencies using package.json deps
+644 silly resolved []
+645 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap
+646 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\wordwrap
+647 verbose linkStuff [ false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules\\optimist\\node_modules' ]
+648 info linkStuff wordwrap@0.0.2
+649 verbose linkBins wordwrap@0.0.2
+650 verbose linkMans wordwrap@0.0.2
+651 verbose rebuildBundles wordwrap@0.0.2
+652 info install wordwrap@0.0.2
+653 silly gunzTarPerm extractEntry .npmignore
+654 silly gunzTarPerm extractEntry LICENSE
+655 info postinstall wordwrap@0.0.2
+656 silly gunzTarPerm extractEntry index.js
+657 silly gunzTarPerm extractEntry examples/pow.js
+658 silly gunzTarPerm extractEntry readme.markdown
+659 silly gunzTarPerm extractEntry test/perm.js
+660 silly gunzTarPerm extractEntry test/perm_sync.js
+661 silly gunzTarPerm extractEntry test/race.js
+662 silly lockFile 473b9de5-s-optimist-node-modules-minimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist
+663 silly lockFile 473b9de5-s-optimist-node-modules-minimist tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist
+664 silly lockFile adea0ef0-ache-minimist-0-0-10-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+665 silly lockFile adea0ef0-ache-minimist-0-0-10-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\minimist\0.0.10\package.tgz
+666 info preinstall minimist@0.0.10
+667 silly gunzTarPerm extractEntry test/rel.js
+668 verbose readDependencies using package.json deps
+669 verbose readDependencies using package.json deps
+670 silly resolved []
+671 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist
+672 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist\node_modules\minimist
+673 verbose linkStuff [ false,
+673 verbose linkStuff   false,
+673 verbose linkStuff   false,
+673 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules\\optimist\\node_modules' ]
+674 info linkStuff minimist@0.0.10
+675 verbose linkBins minimist@0.0.10
+676 verbose linkMans minimist@0.0.10
+677 verbose rebuildBundles minimist@0.0.10
+678 info install minimist@0.0.10
+679 info postinstall minimist@0.0.10
+680 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+681 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\optimist
+682 verbose linkStuff [ false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   false,
+682 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules' ]
+683 info linkStuff optimist@0.6.1
+684 verbose linkBins optimist@0.6.1
+685 verbose linkMans optimist@0.6.1
+686 verbose rebuildBundles optimist@0.6.1
+687 verbose rebuildBundles [ 'minimist', 'wordwrap' ]
+688 info install optimist@0.6.1
+689 silly gunzTarPerm extractEntry test/return.js
+690 silly gunzTarPerm extractEntry test/clobber.js
+691 info postinstall optimist@0.6.1
+692 silly gunzTarPerm extractEntry test/root.js
+693 silly gunzTarPerm extractEntry test/umask.js
+694 silly gunzTarPerm extractEntry test/sync.js
+695 silly gunzTarPerm extractEntry test/chmod.js
+696 silly gunzTarPerm extractEntry test/umask_sync.js
+697 silly gunzTarPerm extractEntry test/return_sync.js
+698 silly gunzTarPerm extractEntry test/mkdirp.js
+699 silly gunzTarPerm extractEntry .travis.yml
+700 silly lockFile 82d27b9f-offee-script-node-modules-mkdirp tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp
+701 silly lockFile 82d27b9f-offee-script-node-modules-mkdirp tar://E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp
+702 silly lockFile f46e07ad-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+703 silly lockFile f46e07ad-m-cache-mkdirp-0-3-5-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\mkdirp\0.3.5\package.tgz
+704 info preinstall mkdirp@0.3.5
+705 verbose readDependencies using package.json deps
+706 verbose readDependencies using package.json deps
+707 silly resolved []
+708 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp
+709 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script\node_modules\mkdirp
+710 verbose linkStuff [ false,
+710 verbose linkStuff   false,
+710 verbose linkStuff   false,
+710 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules\\coffee-script\\node_modules' ]
+711 info linkStuff mkdirp@0.3.5
+712 verbose linkBins mkdirp@0.3.5
+713 verbose linkMans mkdirp@0.3.5
+714 verbose rebuildBundles mkdirp@0.3.5
+715 info install mkdirp@0.3.5
+716 info postinstall mkdirp@0.3.5
+717 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+718 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee\node_modules\coffee-script
+719 verbose linkStuff [ false,
+719 verbose linkStuff   false,
+719 verbose linkStuff   false,
+719 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules' ]
+720 info linkStuff coffee-script@1.8.0
+721 verbose linkBins coffee-script@1.8.0
+722 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+722 verbose link bins   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\haml-coffee\\node_modules\\.bin',
+722 verbose link bins   false ]
+723 verbose linkMans coffee-script@1.8.0
+724 verbose rebuildBundles coffee-script@1.8.0
+725 verbose rebuildBundles [ 'mkdirp' ]
+726 info install coffee-script@1.8.0
+727 info postinstall coffee-script@1.8.0
+728 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+729 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml\node_modules\haml-coffee
+730 verbose linkStuff [ false,
+730 verbose linkStuff   false,
+730 verbose linkStuff   false,
+730 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules' ]
+731 info linkStuff haml-coffee@1.14.1
+732 verbose linkBins haml-coffee@1.14.1
+733 verbose link bins [ { 'haml-coffee': './bin/haml-coffee' },
+733 verbose link bins   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules\\grunt-haml\\node_modules\\.bin',
+733 verbose link bins   false ]
+734 verbose linkMans haml-coffee@1.14.1
+735 verbose rebuildBundles haml-coffee@1.14.1
+736 verbose rebuildBundles [ '.bin', 'coffee-script', 'optimist', 'walkdir' ]
+737 info install haml-coffee@1.14.1
+738 info postinstall haml-coffee@1.14.1
+739 verbose about to build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+740 info build E:\MyWork\Web\www\pubnub\game\node_modules\grunt-haml
+741 verbose linkStuff [ false,
+741 verbose linkStuff   false,
+741 verbose linkStuff   false,
+741 verbose linkStuff   'E:\\MyWork\\Web\\www\\pubnub\\game\\node_modules' ]
+742 info linkStuff grunt-haml@0.9.0
+743 verbose linkBins grunt-haml@0.9.0
+744 verbose linkMans grunt-haml@0.9.0
+745 verbose rebuildBundles grunt-haml@0.9.0
+746 verbose rebuildBundles [ '.bin', 'haml-coffee' ]
+747 info install grunt-haml@0.9.0
+748 info postinstall grunt-haml@0.9.0
+749 error peerinvalid The package bower does not satisfy its siblings' peerDependencies requirements!
+749 error peerinvalid Peer grunt-bower-requirejs@0.4.4 wants bower@~0.x
+750 error System Windows_NT 6.1.7600
+751 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-haml"
+752 error cwd E:\MyWork\Web\www\pubnub\game
+753 error node -v v0.10.28
+754 error npm -v 1.4.9
+755 error code EPEERINVALID
+756 verbose exit [ 1, true ]

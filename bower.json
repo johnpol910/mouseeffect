@@ -1,0 +1,6 @@
+{
+	"name": "angular packages",
+	"dependencies":{
+		"angular-timer": "latest"
+	}
+}

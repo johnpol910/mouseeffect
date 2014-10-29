@@ -1,4 +1,4 @@
 mouseeffect
 ===========
 
-mouse effect
+You can move shapes by moving the mouse

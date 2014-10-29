@@ -1,0 +1,8 @@
+.container
+  %section.game-section#game_application
+    .container
+      .row
+        .col-md-12
+          .game-area{:tabindex => "0"}(ng-click='shoot_bomb($event)' ng-mousemove='mousemove_object($event)')
+            .me-bomb-item(ng-repeat="bomb in bombs" ng-style="{'left': bomb.x + 'px', 'top': bomb.y + 'px', 'transform': bomb.angle_str}")       
+            .other-objects.game-object(ng-repeat="object in objects" ng-style="{'position':'absolute', 'left':object.x + 'px', 'top': object.y + 'px', 'border-bottom-color': object.color, 'transform': object.angle_str }")
